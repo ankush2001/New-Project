@@ -67,3 +67,24 @@ One entry per post. Scout rejects go at the bottom with a reason so the next run
 | 2026-11-20 | ohnePixel "Move Mark" | no facecam, can't prove GTA 6 vs GTA V |
 | 2026-11-20 | TheNicoleT "Nicole destroys her car" | too dark to read on a phone |
 | 2026-11-20 | Jerma "Random falling guy" | payoff unclear, guns in frame |
+
+## 2026-11-21
+- TT-005 Bella plane wheelie: public 11:00 IST (hF7LzH3r1TQ).
+- TT-006 India cost ₹70,989, normal voice: scheduled 16:00 IST (oQVCbpKpqu8).
+- LONG-001 6 funniest moments, normal voice: scheduled 18:00 IST (9AZoEqXkOc0). Custom thumbnail refused: channel not phone-verified.
+- TT-007 official day one sales (Take-Two $3.79B, 32.5M pre-release): scheduled 21:00 IST (rcBmjIw6pBs). Replaces the planned TT-004 normal-voice re-upload.
+- LONG-002 records + India cost, ending updated with official numbers: scheduled Sun 22 Nov 12:00 IST (nqZBSUGwcZ8).
+- Old deep-voice private copies, safe to delete in Studio: a6VCvr_lT0c, cZfSacpNpI0.
+- Upload block: 'throttled without retry' at 09:28 and 13:45 IST, worked at 14:17 IST, about 24 h after the previous day's uploads (per-channel rolling limit, not the midnight-Pacific reset).
+
+## Scout rejects 2026-11-21
+| clip | reason |
+|---|---|
+| ludwig "one of the better drivers" | no payoff, swearing |
+| xQc "put his coffee down" | story cutscene |
+| caseoh_ "cooked them" | NPC fight |
+| IShowSpeed "NOOOOOO" | story scene with blood, spoiler |
+| vanillamace "local wild life" | kicks an animal |
+| Dinah "LMAO" | sexual |
+| KaiCenat "argues with his new girlfriend" | sexual |
+| KaiCenat "gtavi" | story mission cutscene |
