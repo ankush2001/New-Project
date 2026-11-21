@@ -1,0 +1,44 @@
+{
+ "layout": "pip",
+ "size": [
+  1920,
+  1080
+ ],
+ "handle": "@thefttalk",
+ "volume": 1.0,
+ "flash": false,
+ "src": "src/jerma_booth_source.mp4",
+ "out": "parts/p6_booth.mp4",
+ "credit": "Jerma985 (Twitch)",
+ "facecam": [
+  4,
+  656,
+  240,
+  232
+ ],
+ "game": [
+  260,
+  0,
+  1660,
+  934
+ ],
+ "keep": [
+  [
+   0.5,
+   38.5
+  ]
+ ],
+ "punchlines": [
+  {
+   "start": 6.0,
+   "end": 11.0,
+   "text": "HE JUST WANTED TO PAY THE TOLL"
+  },
+  {
+   "start": 21.2,
+   "end": 27.0,
+   "text": "CUSTOMER SERVICE HAS ARRIVED"
+  }
+ ],
+ "end_freeze": 0.0
+}

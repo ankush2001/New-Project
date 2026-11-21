@@ -1,0 +1,8 @@
+{"src":"source.mp4","out":"renders/TT-002.mp4",
+ "credit":"caseoh_ (Twitch)","handle":"@thefttalk",
+ "layout":"stack","facecam":[2,139,398,295],"game":[420,0,1100,950],"split":0.40,
+ "teaser":{"start":8.2,"end":10.5},"teaser_text":"LUCIA'S ATV HAD ONE JOB",
+ "keep":[[0.6,12.6]],
+ "slowmo":{"start":7.6,"end":8.8,"speed":0.4},
+ "punchlines":[{"start":10.2,"end":12.6,"text":"PRISTINE CONDITION"}],
+ "subtitles":"subs.srt","volume":1.0}

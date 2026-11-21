@@ -1,0 +1,9 @@
+{"src":"source.mp4","out":"renders/TT-001.mp4",
+ "credit":"Jerma985 (Twitch)","handle":"@thefttalk",
+ "layout":"stack","facecam":[4,672,240,190],"game":[430,0,1060,1080],"split":0.40,
+ "teaser":{"start":19.6,"end":22.0},"teaser_text":"GTA 6 GATORS DON'T POSE FOR PHOTOS",
+ "keep":[[10.5,19.6],[28.6,31.6]],
+ "slowmo":{"start":17.3,"end":18.6,"speed":0.45},
+ "punchlines":[{"start":11.0,"end":16.4,"text":"JUST ONE MORE PIC..."},
+               {"start":28.8,"end":31.6,"text":"AT LEAST HE GOT THE SHOT"}],
+ "volume":1.0}

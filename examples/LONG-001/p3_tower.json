@@ -1,0 +1,48 @@
+{
+ "layout": "pip",
+ "size": [
+  1920,
+  1080
+ ],
+ "handle": "@thefttalk",
+ "volume": 1.0,
+ "flash": false,
+ "src": "src/jerma_tower_source.mp4",
+ "out": "parts/p3_tower.mp4",
+ "credit": "Jerma985 (Twitch)",
+ "facecam": [
+  4,
+  672,
+  240,
+  190
+ ],
+ "game": [
+  280,
+  0,
+  1500,
+  844
+ ],
+ "keep": [
+  [
+   12.0,
+   32.6
+  ]
+ ],
+ "punchlines": [
+  {
+   "start": 18.4,
+   "end": 22.6,
+   "text": "THE VIEW WAS WORTH IT..."
+  },
+  {
+   "start": 29.4,
+   "end": 31.4,
+   "text": "THE WAY DOWN WASN'T"
+  }
+ ],
+ "slowmo": {
+  "start": 26.2,
+  "end": 27.2,
+  "speed": 0.45
+ }
+}

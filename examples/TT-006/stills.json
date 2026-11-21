@@ -1,0 +1,8 @@
+{"size":[1080,1920],"seconds":8,"stills":[
+ {"id":"t1","kind":"big","seed":81,"top":"GTA 6 · INDIA","big":"₹70,989?","sub":"खेलने का असली खर्चा","color":"red"},
+ {"id":"t2","kind":"big","seed":67,"top":"STANDARD EDITION","big":"₹5,999","sub":"PLAYSTATION INDIA","color":"gold"},
+ {"id":"t3","kind":"card","seed":71,"lines":["NO PC","PS5 · XBOX","ONLY"],"sub":"PS4 PE BHI NAHI","color":"pink"},
+ {"id":"t4","kind":"big","seed":73,"top":"PS5 SLIM DIGITAL","big":"₹64,990","sub":"AMAZON INDIA · 28 OCT","color":"cyan"},
+ {"id":"t5","kind":"big","seed":75,"top":"TOTAL","big":"₹70,989","sub":"CONSOLE + GAME","color":"red"},
+ {"id":"t6","kind":"card","seed":79,"lines":["FULL VIDEO","CHANNEL PE"],"sub":"@thefttalk","color":"cyan"}
+]}

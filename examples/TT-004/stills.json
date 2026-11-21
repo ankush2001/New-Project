@@ -1,0 +1,12 @@
+{"size":[1080,1920],"seconds":7,"stills":[
+ {"id":"s1","kind":"big","seed":3,"top":"1 DAY","big":"₹22,000 करोड़","sub":"सिर्फ़ एक गेम से","color":"gold"},
+ {"id":"s2","kind":"calendar","seed":7,"month":"NOV","day":"19","sub":"GTA 6 LAUNCH","color":"pink"},
+ {"id":"s3","kind":"card","seed":11,"lines":["SENSOR TOWER","DAY ONE","ESTIMATE"],"sub":"PS5 + XBOX · DIGITAL","color":"cyan"},
+ {"id":"s4","kind":"big","seed":5,"top":"COPIES SOLD","big":"24.6M","sub":"DAY ONE","color":"cyan"},
+ {"id":"s5","kind":"big","seed":13,"top":"REVENUE","big":"$2.36B","sub":"यानी ₹22,000 करोड़","color":"green"},
+ {"id":"s6","kind":"bar","seed":17,"label":"DAY ONE REVENUE","items":[{"name":"GTA 5 · 2013","value":800,"show":"$800M"},{"name":"GTA 6 · 2026","value":2360,"show":"$2.36B"}],"color":"pink"},
+ {"id":"s7","kind":"times","seed":19,"big":"3X","sub":"VS GTA 5 DAY ONE","color":"gold"},
+ {"id":"s8","kind":"download","seed":23,"big":"212 GB","pct":0.82,"sub":"DOWNLOAD SIZE","color":"green"},
+ {"id":"s9","kind":"lock","seed":29,"big":"NOT OFFICIAL","sub":"TAKE-TWO: NO NUMBERS YET","color":"pink"},
+ {"id":"s10","kind":"big","seed":31,"top":"OFFICIAL NUMBERS","big":"SOON","sub":"@thefttalk","color":"pink"}
+]}

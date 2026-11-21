@@ -1,0 +1,44 @@
+{
+ "layout": "pip",
+ "size": [
+  1920,
+  1080
+ ],
+ "handle": "@thefttalk",
+ "volume": 1.0,
+ "flash": false,
+ "src": "src/caseoh_crash_source.mp4",
+ "out": "parts/p2_atv.mp4",
+ "credit": "caseoh_ (Twitch)",
+ "facecam": [
+  2,
+  139,
+  398,
+  295
+ ],
+ "game": [
+  420,
+  0,
+  1500,
+  844
+ ],
+ "keep": [
+  [
+   0.0,
+   16.0
+  ]
+ ],
+ "punchlines": [
+  {
+   "start": 10.2,
+   "end": 16.0,
+   "text": "PRISTINE CONDITION"
+  }
+ ],
+ "slowmo": {
+  "start": 7.6,
+  "end": 8.8,
+  "speed": 0.4
+ },
+ "subtitles": "atv.srt"
+}

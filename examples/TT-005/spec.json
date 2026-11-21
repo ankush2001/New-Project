@@ -1,0 +1,9 @@
+{"src":"source.mp4","out":"renders/TT-005.mp4",
+ "credit":"TheBella26 (Twitch)","handle":"@thefttalk",
+ "layout":"stack","facecam":[0,266,426,284],"game":[450,0,1020,920],"split":0.375,
+ "teaser":{"start":13.0,"end":16.0},"teaser_text":"GTA 6 MEIN PLANE SE WHEELIE?",
+ "keep":[[6.0,21.0]],
+ "slowmo":{"start":8.0,"end":10.0,"speed":0.5},
+ "punchlines":[{"start":5.6,"end":7.9,"text":"EK WHEELIE HO JAYE..."},
+               {"start":17.0,"end":21.5,"text":"WHEELIE NAHI, SEEDHA SAMUNDAR"}],
+ "volume":1.0}

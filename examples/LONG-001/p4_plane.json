@@ -1,0 +1,48 @@
+{
+ "layout": "pip",
+ "size": [
+  1920,
+  1080
+ ],
+ "handle": "@thefttalk",
+ "volume": 1.0,
+ "flash": false,
+ "src": "src/caseoh_plane_source.mp4",
+ "out": "parts/p4_plane.mp4",
+ "credit": "caseoh_ (Twitch)",
+ "facecam": [
+  0,
+  136,
+  402,
+  298
+ ],
+ "game": [
+  420,
+  0,
+  1500,
+  844
+ ],
+ "keep": [
+  [
+   0.0,
+   35.6
+  ]
+ ],
+ "punchlines": [
+  {
+   "start": 10.0,
+   "end": 14.0,
+   "text": "EVERYONE SURVIVED. SOMEHOW."
+  },
+  {
+   "start": 26.6,
+   "end": 35.6,
+   "text": "\"JUST ACCEPT IT\""
+  }
+ ],
+ "slowmo": {
+  "start": 7.3,
+  "end": 9.0,
+  "speed": 0.45
+ }
+}

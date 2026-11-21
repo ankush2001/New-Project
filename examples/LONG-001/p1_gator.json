@@ -1,0 +1,52 @@
+{
+ "layout": "pip",
+ "size": [
+  1920,
+  1080
+ ],
+ "handle": "@thefttalk",
+ "volume": 1.0,
+ "flash": false,
+ "src": "src/jerma_gator_source.mp4",
+ "out": "parts/p1_gator.mp4",
+ "credit": "Jerma985 (Twitch)",
+ "facecam": [
+  4,
+  672,
+  240,
+  190
+ ],
+ "game": [
+  330,
+  90,
+  1280,
+  720
+ ],
+ "keep": [
+  [
+   5.5,
+   22.0
+  ],
+  [
+   28.6,
+   32.8
+  ]
+ ],
+ "punchlines": [
+  {
+   "start": 11.0,
+   "end": 16.4,
+   "text": "JUST ONE MORE PIC..."
+  },
+  {
+   "start": 28.8,
+   "end": 31.6,
+   "text": "AT LEAST HE GOT THE SHOT"
+  }
+ ],
+ "slowmo": {
+  "start": 17.3,
+  "end": 18.6,
+  "speed": 0.45
+ }
+}

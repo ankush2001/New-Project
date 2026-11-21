@@ -1,0 +1,17 @@
+{"title":"GTA 6 ne 1 din mein kitna kamaya","voice":"hm_psi","lang":"hi","fx":"natural","speed":1.1,"lead":0.3,"outro":0.6,"gap":0.22,
+ "layout":"fill","game_audio":0,"handle":"@thefttalk","caption_y":0.78,
+ "sources":["Sensor Tower via Notebookcheck/Reuters/Deadline, 19-20 Nov 2026: ~24.6M digital copies, >$2.36B launch day (estimate, pre-orders incl.)","Reuters 19 Nov 2026: GTA V ~ $800M first day 2013","Deadline 19 Nov 2026: 212GB download","Nacionale 19 Nov 2026: Take-Two has published no sales number","USD/INR ~94-97 (Wise, Policybazaar)"],
+ "lines":[
+  {"text":"एक दिन, और करीब बाईस हज़ार करोड़ रुपये।","caps":"*एक दिन | *बाईस हज़ार करोड़","clip":"s1.mp4","in":0,"zoom":0.08},
+  {"text":"जीटीए सिक्स उन्नीस नवंबर को लॉन्च हुआ,","caps":"*GTA 6 | उन्नीस नवंबर","clip":"s2.mp4","in":0,"zoom":0.06},
+  {"text":"और सेंसर टावर के अंदाज़े से, पहले ही दिन,","caps":"Sensor Tower | *पहले ही दिन","clip":"s3.mp4","in":0,"zoom":0.05},
+  {"text":"करीब ढाई करोड़ डिजिटल कॉपी बिक गईं।","caps":"*ढाई करोड़ | कॉपी बिक गईं","clip":"s4.mp4","in":0,"zoom":0.08},
+  {"text":"कमाई? दो पॉइंट तीन छह बिलियन डॉलर।","caps":"कमाई? | *2.36 बिलियन डॉलर","clip":"s5.mp4","in":0,"zoom":0.08},
+  {"text":"अब जीटीए फ़ाइव याद करो।","caps":"*GTA 5 | याद करो","clip":"s6.mp4","in":0,"zoom":0.04},
+  {"text":"दो हज़ार तेरह में, पहले दिन, करीब आठ सौ मिलियन डॉलर।","caps":"2013 में | *800 मिलियन डॉलर","in":3,"zoom":0.04},
+  {"text":"यानी जीटीए सिक्स ने करीब तीन गुना कमा लिया।","caps":"*तीन गुना","clip":"s7.mp4","in":0,"zoom":0.1},
+  {"text":"और डाउनलोड साइज़? पूरे दो सौ बारह जीबी।","caps":"डाउनलोड साइज़? | *212 GB","clip":"s8.mp4","in":0,"zoom":0.06},
+  {"text":"लेकिन रुको, टेक-टू ने अभी ऑफ़िशियल नंबर नहीं बताए,","caps":"लेकिन रुको | *ऑफ़िशियल नंबर नहीं","clip":"s9.mp4","in":0,"zoom":0.05},
+  {"text":"तो ये सब अभी अंदाज़े हैं।","caps":"*सब अंदाज़े","in":3,"zoom":0.05},
+  {"text":"असली नंबर आते ही, यहीं बताएँगे। फ़ॉलो कर लो।","caps":"असली नंबर | *फ़ॉलो कर लो","clip":"s10.mp4","in":0,"zoom":0.06}
+ ]}

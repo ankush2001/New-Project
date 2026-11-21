@@ -1,0 +1,21 @@
+{"size":[1920,1080],"seconds":12,"stills":[
+ {"id":"c0","kind":"big","seed":51,"top":"GTA 6","big":"RECORDS","sub":"+ इंडिया में असली खर्चा","color":"pink"},
+ {"id":"c1","kind":"calendar","seed":7,"month":"NOV","day":"19","sub":"LAUNCH · PS5 + XBOX","color":"pink"},
+ {"id":"c2","kind":"card","seed":11,"lines":["SENSOR TOWER","DAY ONE","ESTIMATE"],"sub":"DIGITAL · PS5 + XBOX","color":"cyan"},
+ {"id":"c3","kind":"big","seed":5,"top":"COPIES SOLD · DAY 1","big":"24.6M","sub":"करीब ढाई करोड़","color":"cyan"},
+ {"id":"c4","kind":"big","seed":13,"top":"REVENUE · DAY 1","big":"$2.36B","sub":"यानी ₹22,000 करोड़","color":"green"},
+ {"id":"c5","kind":"bar","seed":17,"label":"DAY ONE REVENUE","items":[{"name":"GTA 5 · 2013","value":800,"show":"$800M"},{"name":"GTA 6 · 2026","value":2360,"show":"$2.36B"}],"color":"pink"},
+ {"id":"c6","kind":"times","seed":19,"big":"3X","sub":"VS GTA 5 DAY ONE","color":"gold"},
+ {"id":"c7","kind":"big","seed":61,"top":"LIVE VIEWERS · LAUNCH","big":"6.38M+","sub":"TWITCH + YOUTUBE + KICK","color":"pink"},
+ {"id":"c8","kind":"bar","seed":63,"label":"PEAK LIVE VIEWERS","items":[{"name":"VALORANT · 2020","value":1.74,"show":"1.74M"},{"name":"GTA 6 · 2026","value":6.38,"show":"6.38M+"}],"color":"cyan"},
+ {"id":"c9","kind":"big","seed":65,"top":"TWITCH PEAK","big":"3.29M","sub":"LoL RECORD: 3.11M","color":"cyan"},
+ {"id":"c10","kind":"big","seed":67,"top":"INDIA PRICE · STANDARD","big":"₹5,999","sub":"PLAYSTATION INDIA","color":"gold"},
+ {"id":"c11","kind":"big","seed":69,"top":"ULTIMATE EDITION","big":"₹7,499","sub":"₹1,500 ज़्यादा","color":"gold"},
+ {"id":"c12","kind":"card","seed":71,"lines":["NO PC","PS5 · XBOX SERIES","ONLY"],"sub":"PS4 / XBOX ONE: NAHI","color":"pink"},
+ {"id":"c13","kind":"big","seed":73,"top":"PS5 SLIM DIGITAL","big":"₹64,990","sub":"AMAZON INDIA · 28 OCT","color":"cyan"},
+ {"id":"c14","kind":"big","seed":75,"top":"TOTAL TO PLAY","big":"₹70,989","sub":"CONSOLE + GAME","color":"red"},
+ {"id":"c15","kind":"download","seed":23,"big":"212 GB","pct":0.82,"sub":"FREE SPACE ON PS5","color":"green"},
+ {"id":"c16","kind":"big","seed":77,"top":"GTA 5 · SOLD-IN","big":"230M","sub":"करीब 23 करोड़ कॉपी","color":"gold"},
+ {"id":"c17","kind":"lock","seed":29,"big":"NOT OFFICIAL","sub":"SALES NUMBERS = ESTIMATES","color":"pink"},
+ {"id":"c18","kind":"big","seed":79,"top":"COMMENT KARO","big":"LIYA YA NAHI?","sub":"@thefttalk","color":"pink"}
+]}
