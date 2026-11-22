@@ -110,3 +110,53 @@ One entry per post. Scout rejects go at the bottom with a reason so the next run
 | jerma985 "absolute psycho" | pouring gasoline on people |
 | jerma985 "HAHAHA... wut?" | cow side activity, payoff unclear (backup) |
 | theburntpeanut "Peanut Escalates" | story scene, avatar not facecam |
+
+## Daily run 2026-11-22 (20:33 IST, scheduled routine)
+Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 Jerma gator 1,483 (76% viewed), TT-002 caseoh 496. Momentum -> two Jerma985 follow-ups today. TT-008 Stormfall33 boat: 5 views after 11 h (stuck; check Studio for a claim). Best Hindi so far: TT-006 India cost 60. LONG-001/002: 1 view each.
+
+## TT-009 - scheduled 2026-11-22 23:30 IST - YouTube Shorts - MISSION MOMENT (dirt bike race activity)
+- Hook / punchlines: "GTA 6 DIRT BIKE RACES HAVE NO RULES" / "DODGED ONE TRUCK..." / "BACK IN THE RACE" / "THERE WAS A SECOND TRUCK"
+- Title: gta 6 dirt bike race had a monster truck 💀
+- Source: https://www.twitch.tv/jerma985/clip/CautiousBraveRadishVoteYea-z8TRft_iT0laooUB ("cartoon piano", ~1 day old)
+- Proof: dirt bike race HUD (LAP 1/2, 5/12), Leonida dirt track, category Grand Theft Auto VI. Side activity, no story objective on screen.
+- Edit: stack, teaser = monster truck landing (16.1-18.0 s), slow-mo 0.5x on the hit, subtitle "No don't!" from Jerma's own burned-in caption, 14.3 s
+- Video: https://youtu.be/UK2oSY2FOEQ (private, publishAt 2026-11-22T18:00:00Z)
+
+## TT-010 - scheduled 2026-11-23 05:30 IST - YouTube Shorts (strongest clip, US prime time)
+- Hook / punchlines: "GTA 6 SAYS THE POOL DOESN'T COUNT" / "PERFECT AIM SO FAR..." / "10/10 DIVE. 0/10 SURVIVAL"
+- Title: lucia hit the pool and still got wasted
+- Source: https://www.twitch.tv/jerma985/clip/ThankfulCleanHummingbirdBuddhaBar-XbiFzW_ischLqhI5 ("OLYMPIC POOL DIVING GONE WRONG")
+- Proof: Lucia, Vice City rooftops and pools, GTA 6 wasted screen.
+- Edit: stack, teaser = WASTED over the pool, subtitle "I'm going to high dive into the pool" from Jerma's burned-in caption, slow-mo 0.5x before impact, 14.7 s
+- Send test: the friend who always says "trust me, I've got this"
+- Video: https://youtu.be/_mW3hkISco0 (private, publishAt 2026-11-23T00:00:00Z)
+
+## TT-011 - scheduled 2026-11-23 19:30 IST - YouTube Shorts
+- Hook / punchlines: "CHAT SAID HE CAN'T DRIVE IN GTA 6" / "HE TOOK IT PERSONALLY" / "CHAT WAS RIGHT" (chat line visible on stream: "u shouldn't even have a car u cant drive")
+- Title: chat said lacy can't drive in gta 6
+- Source: https://www.twitch.tv/lacy/clip/ModernNeighborlyWombatHotPokket-0o0oWDI-1Ir1uNO0 ("WORST DRIVER EVER…"; Lacy runs a clipping campaign)
+- Edit: stack (chat and stream timer cropped out), teaser = car flipping over the barrier, slow-mo 0.5x, no subtitles (no hand transcription), 15.2 s
+- Video: https://youtu.be/0yQ_RF24_8Q (private, publishAt 2026-11-23T14:00:00Z)
+
+## TT-012 - scheduled 2026-11-22 21:30 IST - YouTube Shorts - SIDE-MISSION QUICK GUIDE (Hindi)
+- Mission: Skunk Apeology 101 / Search for the Skunk Ape (first Skunk Ape mission, Chapter 1)
+- Facts used (agreed by 2+ of KeenGamer 21 Nov, HoldToReset 20 Nov, GamesRadar 20 Nov): Kirk's flyer (Skeeter's Bar, Hamlet), call him, KK marker in Gullet Marsh near Pelican River, night only, hit the stick on the truck, flashlight, follow Kirk's drone, boar chases you back to the truck, reward $1,000.
+- Voice: edge-tts hi-IN-MadhurNeural +10%; 6 news_stills (Devanagari without conjuncts because Pillow has no raqm on the Mac), 34.2 s
+- Title: GTA 6 Skunk Ape मिशन कैसे करें
+- Video: https://youtu.be/QRWZfmmJWVs (private, publishAt 2026-11-22T16:00:00Z)
+- Rendered on the Mac (~/faceless-shorts/tt012); all four hosted on media-20261123
+
+## Scout rejects 2026-11-22 (evening)
+| clip | reason |
+|---|---|
+| jerma985 "billy badass aura" | robbing an NPC at gunpoint |
+| jerma985 "a sequence of events..." | NPC street fight, hitting people with a car |
+| jerma985 "u can jump on the scooter" | story objective on screen ("Check on Jason") |
+| jerma985 "Small town Andy in the big city" | same scooter session, weak payoff |
+| jshrobz "I can't even explain..." | albino gator then game crash; tiny facecam, key art at the end |
+| furi "Must have been the wind" | slurs in burned captions |
+| ludwig "Lud after he got his highlights" | likely story beat, heavy chat overlay, swearing |
+| quin69 "Need for Quin69" | dark, restart menu, weak payoff |
+| lacy "a" (2.3K) | game crash + key art |
+| lacy "a" (1.3K) | no gameplay |
+| lacy "finds the tiger" | dark heist mission, chat overlay |
