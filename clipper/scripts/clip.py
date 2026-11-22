@@ -31,6 +31,10 @@ Spec fields (paths are relative to the spec file):
   volume         gain before loudness normalisation (default 1.0)
   flash          true (default) white flash + whoosh at the teaser cut
   end_freeze     seconds to hold the last frame (e.g. WASTED before a black loading screen), default 0
+  banner         {"text":"SPEED FOUND THE RED HULK MISSION","badge":"GTA 6","color":"pink"}  stack only:
+                 a title bar across the top for the whole video (our own neon badge, never Rockstar art)
+  punch          {"start":a,"end":b,"zoom":1.25}  hard punch-in on the gameplay for a source range (the
+                 default comedic edit since 23 Nov; slow-mo only if a spec asks for it)
 
 Outputs: <out>, plus <out>.timeline.json (segment map) for QA.
 """
@@ -94,18 +98,19 @@ def build_segments(spec, dur):
     if t:
         segs.append(dict(kind="play", a=t["start"], b=t["end"], speed=1.0, part="teaser"))
     keep = spec.get("keep") or [[0, dur]]
-    sm, fr = spec.get("slowmo"), spec.get("freeze")
+    sm, fr, pu = spec.get("slowmo"), spec.get("freeze"), spec.get("punch")
     if sm and fr:
         print("warning: both slowmo and freeze set - the guide allows one comedic edit; using both anyway")
     for a, b in keep:
         cuts = sorted({a, b} | {x for x in ([sm["start"], sm["end"]] if sm else []) + ([fr["at"]] if fr else [])
-                                if a < x < b})
+                                + ([pu["start"], pu["end"]] if pu else []) if a < x < b})
         for i in range(len(cuts) - 1):
             x, y = cuts[i], cuts[i + 1]
             speed = sm["speed"] if sm and sm["start"] <= x and y <= sm["end"] else 1.0
             if fr and abs(x - fr["at"]) < 1e-6:
                 segs.append(dict(kind="freeze", a=x, b=x, dur=fr["dur"], speed=1.0, part="main"))
-            segs.append(dict(kind="play", a=x, b=y, speed=speed, part="main"))
+            zoom = pu.get("zoom", 1.25) if pu and pu["start"] <= x and y <= pu["end"] else 1.0
+            segs.append(dict(kind="play", a=x, b=y, speed=speed, part="main", zoom=zoom))
         if fr and abs(b - fr["at"]) < 1e-6:
             segs.append(dict(kind="freeze", a=b, b=b, dur=fr["dur"], speed=1.0, part="main"))
     if spec.get("end_freeze"):
@@ -175,10 +180,14 @@ def layout_filter(spec, W, H, inp="[0:v]"):
     fill = lambda w, h: f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},setsar=1"
     if L == "stack":
         f = spec.get("facecam") or die("stack layout needs facecam [x,y,w,h]")
-        th = int(round(H * spec.get("split", 0.40) / 2) * 2)
-        bh = H - th
+        bb = banner_h(spec, H)
+        Hs = H - bb
+        th = int(round(Hs * spec.get("split", 0.40) / 2) * 2)
+        bh = Hs - th
+        pad = f",pad={W}:{H}:0:{bb}:color=0x12061f" if bb else ""
         return (f"{inp}split[a][b];[a]crop={f[2]}:{f[3]}:{f[0]}:{f[1]},{fill(W, th)}[t];"
-                f"[b]{gc}{fill(W, bh)}[g];[t][g]vstack,drawbox=y={th - 3}:w={W}:h=6:color=white@0.9:t=fill"), th
+                f"[b]{gc}{fill(W, bh)}[g];[t][g]vstack,drawbox=y={th - 3}:w={W}:h=6:color=white@0.9:t=fill"
+                f"{pad}"), bb + th
     if L == "fit":
         return (f"{inp}{gc}split[a][b];[a]{fill(W, H)},boxblur=24:2,eq=brightness=-0.18[bg];"
                 f"[b]scale={W}:-2,setsar=1[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2"), 0
@@ -193,6 +202,70 @@ def layout_filter(spec, W, H, inp="[0:v]"):
     die(f"unknown layout {L}")
 
 
+def banner_h(spec, H):
+    return int(round(H * 0.135 / 2) * 2) if spec.get("banner") and spec.get("layout", "stack") == "stack" else 0
+
+
+def zoomed(spec, z):
+    """copy of spec whose game crop is tightened around its centre by factor z (punch-in)."""
+    g = spec.get("game")
+    if not g or z == 1.0:
+        return spec
+    w, h = int(g[2] / z) // 2 * 2, int(g[3] / z) // 2 * 2
+    sp = dict(spec)
+    sp["game"] = [g[0] + (g[2] - w) // 2, g[1] + (g[3] - h) // 2, w, h]
+    return sp
+
+
+BCOL = {"pink": (255, 60, 170), "cyan": (60, 230, 255), "gold": (255, 200, 60), "green": (80, 255, 140),
+        "red": (255, 70, 70)}
+
+
+def banner_png(path, W, H, spec, fontfile):
+    from PIL import ImageFilter
+    bn = spec["banner"]
+    bb = banner_h(spec, H)
+    k = W / 1080
+    col = BCOL.get(bn.get("color", "pink"), BCOL["pink"])
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    # dark band with a neon line under it
+    for y in range(bb):
+        t = y / max(1, bb - 1)
+        d.line([(0, y), (W, y)], fill=(int(18 + 22 * t), int(6 + 4 * t), int(31 + 30 * t), 255))
+    d.rectangle([0, bb - int(6 * k), W, bb], fill=col + (255,))
+    # badge
+    badge = bn.get("badge", "GTA 6")
+    bf = ImageFont.truetype(fontfile, int(78 * k)) if fontfile else ImageFont.load_default()
+    bw = d.textlength(badge, font=bf)
+    bx0, by0 = int(30 * k), int((bb - 120 * k) / 2)
+    bx1, by1 = bx0 + int(bw + 44 * k), by0 + int(120 * k)
+    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    gd.rounded_rectangle([bx0, by0, bx1, by1], radius=int(22 * k), outline=col + (255,), width=int(10 * k))
+    glow = glow.filter(ImageFilter.GaussianBlur(int(10 * k)))
+    img.alpha_composite(glow)
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle([bx0, by0, bx1, by1], radius=int(22 * k), fill=(10, 4, 20, 255), outline=col + (255,),
+                        width=int(6 * k))
+    d.text(((bx0 + bx1) / 2, (by0 + by1) / 2), badge, font=bf, fill="white", anchor="mm",
+           stroke_width=int(2 * k), stroke_fill=col)
+    # title, up to two lines, shrink to fit
+    text = bn["text"].upper()
+    x0 = bx1 + int(26 * k)
+    maxw = W - x0 - int(26 * k)
+    for size in range(int(64 * k), int(34 * k), -2):
+        tf = ImageFont.truetype(fontfile, size) if fontfile else ImageFont.load_default()
+        lines = wrap(d, text, tf, maxw)
+        if len(lines) <= 2:
+            break
+    lh = int(size * 1.08)
+    ty = (bb - lh * len(lines)) / 2
+    for i, ln in enumerate(lines[:2]):
+        d.text((x0, ty + i * lh), ln, font=tf, fill="white", stroke_width=max(2, size // 14), stroke_fill="black")
+    img.save(path)
+
+
 def atempo(speed):
     parts, s = [], speed
     while s < 0.5:
@@ -203,7 +276,7 @@ def atempo(speed):
 
 
 def render_segment(spec, src, seg, W, H, has_a, out, vol, crf):
-    lf, _ = layout_filter(spec, W, H)
+    lf, _ = layout_filter(zoomed(spec, seg.get("zoom", 1.0)), W, H)
     if seg["kind"] == "freeze":
         png = out + ".png"
         run(["ffmpeg", "-y", "-v", "error", "-ss", f"{seg['a']:.3f}", "-i", src, "-frames:v", "1", png])
@@ -298,6 +371,10 @@ def main():
         vert = H > W
         g_top = top if top else (int(H * 0.16) if vert else int(H * 0.06))
         overlays = []  # (png, t0, t1)
+        if banner_h(spec, H):
+            p = str(tmp / "banner.png")
+            banner_png(p, W, H, spec, fontfile)
+            overlays.append((p, 0, total))
         credit = spec.get("credit", "")
         if spec.get("handle"):
             credit = f"{credit}  |  {spec['handle']}" if credit else spec["handle"]
