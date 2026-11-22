@@ -88,3 +88,25 @@ One entry per post. Scout rejects go at the bottom with a reason so the next run
 | Dinah "LMAO" | sexual |
 | KaiCenat "argues with his new girlfriend" | sexual |
 | KaiCenat "gtavi" | story mission cutscene |
+
+## TT-008 - public 2026-11-22 09:36 IST - YouTube Shorts (Ankush asked "upload one now")
+- Hook / setup / punchline: "GTA 6 BOATS DON'T WAIT FOR YOU" / "JASON JUST WANTED A QUICK SWIM" / "THE BOAT HAD OTHER PLANS"
+- Title: jason jumped in, the boat left 💀
+- Source: https://www.twitch.tv/stormfall33/clip/SpicyFurryDragonflyTBCheesePull-ZARTUiKyAtYCYoUi (~1 day old, 1.2K views at scout)
+- Credit: Stormfall33 (Twitch), on screen + description line 1
+- Proof frame: Jason on a boat off Vice City skyline (game-only), category Grand Theft Auto VI
+- Send test: the friend who jumps off every boat - "this is you in Goa"
+- Edit: stack, teaser = shocked face + Jason swimming alone (13.0-15.2 s), slow-mo 0.5x on the dive, no subtitles (no transcription), 13.5 s
+- Rendered on the Mac (~/faceless-shorts/clips22); hosted on media-20261122
+- Link: https://www.youtube.com/watch?v=Lz0MBmoW-HI
+
+## Scout rejects 2026-11-22
+| clip | reason |
+|---|---|
+| ludwig "accumulating insurance fraud" | NPCs hit by cars, body on road |
+| joe_bartolozzi "true florida man" | dead bird, weak payoff |
+| chiblee "I think the game is working" | no facecam |
+| crream "Worst partner around!" | story mission, dark, gun |
+| jerma985 "absolute psycho" | pouring gasoline on people |
+| jerma985 "HAHAHA... wut?" | cow side activity, payoff unclear (backup) |
+| theburntpeanut "Peanut Escalates" | story scene, avatar not facecam |
