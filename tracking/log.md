@@ -160,3 +160,11 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 | lacy "a" (2.3K) | game crash + key art |
 | lacy "a" (1.3K) | no gameplay |
 | lacy "finds the tiger" | dark heist mission, chat overlay |
+
+## Re-cut 2026-11-23 00:30 IST (Ankush's feedback: more viral, missions, girl streamers, banner, no slow-mo, better descriptions)
+- Trend check (YouTube search 19-23 Nov): curiosity/discovery Shorts and big-streamer full-sentence titles get millions; side-mission streamer clips 1K-35K (open lane); female streamer clips under-covered.
+- clip.py: new "banner" (top title bar, own neon GTA 6 badge) and "punch" (hard punch-in zoom). Slow-mo dropped.
+- TT-010v2 Jerma pool: banner + punch-in, title "Jerma tried to high dive into a pool in GTA 6 💀", new description. https://youtu.be/r0mFMghNB7Q (private, publishAt 2026-11-23T00:00:00Z). Old TT-010 _mW3hkISco0 set private, schedule removed (not deleted).
+- TT-011v2 Lacy: rendered, on media-20261123; upload after the quota reset (scheduled follow-up 14:10 IST) for 19:30 IST. Old TT-011 0yQ_RF24_8Q set private, schedule removed.
+- New descriptions (story + question + credit) on TT-009 UK2oSY2FOEQ and TT-012 QRWZfmmJWVs.
+- Early numbers: TT-008 boat 5 -> 451 views overnight; TT-009 47 views in 1 h; TT-012 Hindi 4 views in 3 h.
