@@ -173,3 +173,6 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - Ankush shared an Instagram reel ("Mrbeast Gaming Steals a JET!!🤯", 57 s) and said "like this". New default = STORY SHORT: facecam top, white rounded title card on the seam, word-by-word captions (white caps, one yellow word) from the streamer's real speech, 25-45 s mini story, no banner/flash/slow-mo.
 - clip.py: "title_card" and "captions"; new transcribe.py (faster-whisper word timestamps, unsure words dropped; Mac venv ~/faceless-shorts/whisper-venv).
 - Sample: IShowSpeed alligator (32.4 s), not uploaded yet. Daily task prompt updated to the story style.
+
+## 2026-11-23 14:11 IST - TT-011v2 (Lacy re-cut) NOT uploaded
+- The follow-up fired, but the original Lacy Short 0yQ_RF24_8Q is public (since 00:33 IST) and already has 977 views; the re-cut is the same clip, so it was skipped on purpose (no duplicate). Pool v2 r0mFMghNB7Q: 1,160 views.
