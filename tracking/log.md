@@ -193,3 +193,11 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - Ankush: long video today with the new voice, from streams we already have, with music. Countdown #8-#1 from our 8 best clips (DarkViperAU truck, Stormfall boat, Lacy driving, Jerma dirt bike, Stormfall train, Jerma pool, Speed gator, Speed UFO+alien), cold open = Speed's alien line.
 - English OmniVoice narrator (male, young adult, american accent) on blurred number cards; code-made synthwave bed (music.py) only under the cards; streamer audio full on clips; 5 swear words auto-muted (build_long.py).
 - 1920x1080 30 fps, 2.8 Mbit/s, 82 MB, -13.8 LUFS. Hosted media-voicetest-20261123/LONG-003.mp4. Scheduled slot 03:30 IST 24 Nov (5 PM New York), upload in the 20:48 batch.
+
+## Uploads 2026-11-23 20:50 IST (all private + publishAt verified in the API response)
+- TT-016 STORY "IShowSpeed gets attacked by an alligator in GTA 6 🐊" - public 05:30 IST 24 Nov - https://youtu.be/ao-Q9b1O1p4 (32.4 s, 1440x2560 60 fps)
+- TT-014 CURIOSITY "IShowSpeed found a UFO and an alien in GTA 6 👽" - public 23:30 IST 23 Nov - https://youtu.be/lC73uDnnjvk (32.7 s, teaser + story look; today's experiment)
+- LONG-003 COUNTDOWN-LONG "8 Times GTA 6 Destroyed Streamers (IShowSpeed, Jerma, Lacy)" - public 03:30 IST 24 Nov - https://youtu.be/uhaeRmoVN-k (3:53, 16:9, OmniVoice narrator, chapters)
+- TT-015 GAG girl-streamer "Stormfall33 tried train surfing in GTA 6 and forgot to duck 🚆" - public 19:30 IST 24 Nov - https://youtu.be/w4cn11nZHAU (12.1 s, banner + punch-in)
+- Not uploaded on purpose: TT-013 (Hindi UFO guide) and TT-017 (Hindi narrated reel) - channel is English only now.
+- Noticed: old pool Short _mW3hkISco0 (same clip as r0mFMghNB7Q) went public at 15:44 IST 23 Nov - not done by these runs; left as is.
