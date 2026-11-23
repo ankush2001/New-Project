@@ -168,3 +168,8 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - TT-011v2 Lacy: rendered, on media-20261123; upload after the quota reset (scheduled follow-up 14:10 IST) for 19:30 IST. Old TT-011 0yQ_RF24_8Q set private, schedule removed.
 - New descriptions (story + question + credit) on TT-009 UK2oSY2FOEQ and TT-012 QRWZfmmJWVs.
 - Early numbers: TT-008 boat 5 -> 451 views overnight; TT-009 47 views in 1 h; TT-012 Hindi 4 views in 3 h.
+
+## Style change 2026-11-23 09:40 IST
+- Ankush shared an Instagram reel ("Mrbeast Gaming Steals a JET!!🤯", 57 s) and said "like this". New default = STORY SHORT: facecam top, white rounded title card on the seam, word-by-word captions (white caps, one yellow word) from the streamer's real speech, 25-45 s mini story, no banner/flash/slow-mo.
+- clip.py: "title_card" and "captions"; new transcribe.py (faster-whisper word timestamps, unsure words dropped; Mac venv ~/faceless-shorts/whisper-venv).
+- Sample: IShowSpeed alligator (32.4 s), not uploaded yet. Daily task prompt updated to the story style.

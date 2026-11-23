@@ -46,6 +46,9 @@ Zapier skills live in Ankush's Zapier account: read them with `get_zapier_skill`
 
 ## 4. Cut (clip.py on the Mac)
 
+DEFAULT STYLE since 23 Nov = STORY SHORT (Ankush's reference: Instagram reel "Mrbeast Gaming Steals a JET!!"): facecam on top (split 0.38), white rounded `title_card` with black bold text on the seam ("IShowSpeed Gets Attacked by an Alligator in GTA 6"), word-by-word `captions` (white caps, black outline, one yellow word) of what the streamer really says, a 25-45 s mini story, no banner, flash or slow-mo. Captions: run `~/faceless-shorts/whisper-venv/bin/python clipper/scripts/transcribe.py clip.mp4` (timings, unsure words dropped), then write `clip.captions.json` with the text from the streamer's own burned-in captions where they exist; drop swear words; never guess. Model spec: `~/faceless-shorts/clips20261123/spec_story_speed_gator.json`. The banner + punch style below is for silent gag clips.
+
+
 1. `sheet.py frame <file> 3 --grid` and read crops in source pixels: `facecam` [x,y,w,h] tight on the face (the top panel is about 1.4:1), `game` [x,y,w,h] about 0.94:1 with no chat, cam, stream timer, minimap or burned-in captions.
 2. Spec (copy and edit; times are SOURCE seconds):
 ```json
