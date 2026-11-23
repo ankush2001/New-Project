@@ -23,9 +23,15 @@ def main():
     ap.add_argument("--start", type=float, default=0.0)
     ap.add_argument("--end", type=float, default=1e9)
     a = ap.parse_args()
+    import subprocess
+    import numpy as np
     from faster_whisper import WhisperModel
+    # decode with ffmpeg (PyAV versions vary and break faster-whisper's own decoder)
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", a.src, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"],
+                         stdout=subprocess.PIPE, check=True).stdout
+    audio = np.frombuffer(raw, dtype=np.float32)
     model = WhisperModel(a.model, device="cpu", compute_type="int8")
-    segs, info = model.transcribe(a.src, word_timestamps=True, vad_filter=True, beam_size=5,
+    segs, info = model.transcribe(audio, word_timestamps=True, vad_filter=True, beam_size=5,
                                   condition_on_previous_text=False)
     words, lines = [], []
     for seg in segs:
