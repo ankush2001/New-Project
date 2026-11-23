@@ -73,7 +73,8 @@ DEFAULT STYLE since 23 Nov = STORY SHORT (Ankush's reference: Instagram reel "Mr
    - Punchlines: ALL CAPS, add context, never describe ("CHAT WAS RIGHT", "THERE WAS A SECOND TRUCK"), in the gameplay area, never over the face.
    - Subtitles only from words you can hear or read (the streamer's own burned-in captions count; check it's not an NPC line). Never guess.
    - Length 12-17 s. If it ends on a black loading screen after WASTED, end before it.
-3. `python3 clip.py spec.json --draft`, `python3 sheet.py qa renders/TT-0NN.mp4`, LOOK at the QA sheet (hook, flash, payoff, last), fix, then the final render without `--draft` and QA again.
+3. Quality: every final upload gets `"quality": "high"` in the spec (or `--hq`): 1440x2560, the source frame rate up to 60 fps, lanczos scaling, sharpened facecam, slow x264 at up to 18 Mbit/s and 256k audio, so YouTube gives the Short its better (VP9) encode. About 74 MB for 32 s; GitHub raw hosting allows 100 MB, so a Short over about 42 s at 60 fps needs `"size":[1080,1920]` with quality high, or splitting. Drafts stay fast.
+4. `python3 clip.py spec.json --draft`, `python3 sheet.py qa renders/TT-0NN.mp4`, LOOK at the QA sheet (hook, flash, payoff, last), fix, then the final render without `--draft` and QA again.
 
 ## 5. Host and upload
 
