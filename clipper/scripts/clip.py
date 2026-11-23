@@ -37,6 +37,9 @@ Spec fields (paths are relative to the spec file):
                  text on the line between facecam and gameplay, whole video (the Instagram/TikTok look)
   captions       {"words":"src.words.json","highlight":["pool"],"per":3,"y":0.70}  word-by-word captions from
                  transcribe.py (words marked drop are left out): white caps, black outline, one key word yellow
+  quality        "high" (or --hq): 1440x2560, the source frame rate up to 60 fps, lanczos scaling, a light sharpen
+                 on the facecam, slow x264 at about 18 Mbit/s max and 256k audio - YouTube then gives the Short its
+                 better (VP9) encode. Default "standard": 1080x1920, 30 fps, fast. Use high for every final upload.
   punch          {"start":a,"end":b,"zoom":1.25}  hard punch-in on the gameplay for a source range (the
                  default comedic edit since 23 Nov; slow-mo only if a spec asks for it)
 
@@ -57,6 +60,7 @@ FALLBACKS = ["/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf",
              "/System/Library/Fonts/Supplemental/Impact.ttf",
              "/Library/Fonts/Arial Bold.ttf"]
 FPS = 30
+HQ = False
 
 
 def die(msg):
@@ -88,12 +92,17 @@ def font_path(kind):
 
 
 def probe(src):
-    r = run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,width,height:format=duration",
-             "-of", "json", src])
+    r = run(["ffprobe", "-v", "error", "-show_entries",
+             "stream=codec_type,width,height,r_frame_rate:format=duration", "-of", "json", src])
     j = json.loads(r.stdout)
     v = next(s for s in j["streams"] if s["codec_type"] == "video")
     has_a = any(s["codec_type"] == "audio" for s in j["streams"])
-    return v["width"], v["height"], float(j["format"]["duration"]), has_a
+    try:
+        n, d = v.get("r_frame_rate", "30/1").split("/")
+        fps = float(n) / float(d)
+    except Exception:
+        fps = 30.0
+    return v["width"], v["height"], float(j["format"]["duration"]), has_a, fps
 
 
 # ---------- timeline ----------
@@ -182,7 +191,9 @@ def layout_filter(spec, W, H, inp="[0:v]"):
     L = spec.get("layout", "stack")
     g = spec.get("game")
     gc = f"crop={g[2]}:{g[3]}:{g[0]}:{g[1]}," if g else ""
-    fill = lambda w, h: f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},setsar=1"
+    sf = ":flags=lanczos" if HQ else ""
+    fill = lambda w, h: f"scale={w}:{h}:force_original_aspect_ratio=increase{sf},crop={w}:{h},setsar=1"
+    sharp = ",unsharp=5:5:0.7:5:5:0.0" if HQ else ""
     if L == "stack":
         f = spec.get("facecam") or die("stack layout needs facecam [x,y,w,h]")
         bb = banner_h(spec, H)
@@ -190,7 +201,7 @@ def layout_filter(spec, W, H, inp="[0:v]"):
         th = int(round(Hs * spec.get("split", 0.40) / 2) * 2)
         bh = Hs - th
         pad = f",pad={W}:{H}:0:{bb}:color=0x12061f" if bb else ""
-        return (f"{inp}split[a][b];[a]crop={f[2]}:{f[3]}:{f[0]}:{f[1]},{fill(W, th)}[t];"
+        return (f"{inp}split[a][b];[a]crop={f[2]}:{f[3]}:{f[0]}:{f[1]},{fill(W, th)}{sharp}[t];"
                 f"[b]{gc}{fill(W, bh)}[g];[t][g]vstack,drawbox=y={th - 3}:w={W}:h=6:color=white@0.9:t=fill"
                 f"{pad}"), bb + th
     if L == "fit":
@@ -378,7 +389,7 @@ def render_segment(spec, src, seg, W, H, has_a, out, vol, crf):
         run(["ffmpeg", "-y", "-v", "error", "-loop", "1", "-t", f"{seg['dur']:.3f}", "-i", png,
              "-f", "lavfi", "-t", f"{seg['dur']:.3f}", "-i", "anullsrc=r=48000:cl=stereo",
              "-filter_complex", f"{lf},fps={FPS},format=yuv420p[v]", "-map", "[v]", "-map", "1:a",
-             "-c:v", "libx264", "-preset", "veryfast", "-crf", str(crf), "-c:a", "aac", "-b:a", "192k",
+             "-c:v", "libx264", "-preset", "medium" if HQ else "veryfast", "-crf", str(crf), "-c:a", "aac", "-b:a", "192k",
              "-ar", "48000", "-shortest", out])
         return
     length = seg["b"] - seg["a"]
@@ -392,7 +403,7 @@ def render_segment(spec, src, seg, W, H, has_a, out, vol, crf):
     fc = vf + (";" + af if af else "")
     run(["ffmpeg", "-y", "-v", "error", "-ss", f"{seg['a']:.3f}", "-t", f"{length:.3f}", "-i", src, *ainp,
          "-filter_complex", fc, "-map", "[v]", "-map", amap, "-t", f"{length / sp:.3f}",
-         "-c:v", "libx264", "-preset", "veryfast", "-crf", str(crf), "-c:a", "aac", "-b:a", "192k",
+         "-c:v", "libx264", "-preset", "medium" if HQ else "veryfast", "-crf", str(crf), "-c:a", "aac", "-b:a", "192k",
          "-ar", "48000", "-ac", "2", out])
 
 
@@ -437,11 +448,15 @@ def main():
     src = str((base / spec["src"]).resolve())
     out = (base / spec.get("out", "renders/out.mp4")).resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
-    W, H = spec.get("size", [1080, 1920])
+    global FPS, HQ
+    HQ = (spec.get("quality") == "high" or "--hq" in args) and not draft
+    sw, sh, dur, has_a, src_fps = probe(src)
+    W, H = spec.get("size", [1440, 2560] if HQ else [1080, 1920])
+    if HQ:
+        FPS = 60 if src_fps >= 50 else (round(src_fps) if src_fps >= 24 else 30)
     if draft:
         W, H = W // 2, H // 2
-    crf = 26 if draft else 18
-    sw, sh, dur, has_a = probe(src)
+    crf = 26 if draft else (14 if HQ else 18)
     for k in ("facecam", "game"):
         r = spec.get(k)
         if r and (r[0] + r[2] > sw or r[1] + r[3] > sh):
@@ -541,8 +556,11 @@ def main():
             chains.append(f"{aud}anull[aout]")
         chains.append(f"{last}format=yuv420p[vout]")
         run(["ffmpeg", "-y", "-v", "error", *inputs, "-filter_complex", ";".join(chains),
-             "-map", "[vout]", "-map", "[aout]", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast",
-             "-crf", str(crf + 2), "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart",
+             "-map", "[vout]", "-map", "[aout]", "-r", str(FPS), "-c:v", "libx264",
+             *(["-preset", "slow", "-crf", "17", "-maxrate", "18M", "-bufsize", "36M", "-profile:v", "high",
+                "-c:a", "aac", "-b:a", "256k"] if HQ else
+               ["-preset", "veryfast", "-crf", str(crf + 2), "-c:a", "aac", "-b:a", "192k"]),
+             "-movflags", "+faststart",
              "-t", f"{total:.3f}", str(out)])
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
@@ -550,9 +568,9 @@ def main():
     tl = {"total": round(total, 2), "teaser_end": round(teaser_end, 2),
           "segments": [{k2: (round(v, 3) if isinstance(v, float) else v) for k2, v in s.items()} for s in segs]}
     Path(str(out) + ".timeline.json").write_text(json.dumps(tl, indent=1))
-    print(f"wrote {out}  ({total:.1f} s, {W}x{H})")
-    if H > W and not (12 <= total <= 20):
-        print(f"warning: {total:.1f} s - Theft Talk clip Shorts should be 12-20 s (12-16 preferred)")
+    print(f"wrote {out}  ({total:.1f} s, {W}x{H}, {FPS} fps{', high quality' if HQ else ''})")
+    if H > W and not (12 <= total <= 60):
+        print(f"warning: {total:.1f} s - Theft Talk Shorts: gags 12-17 s, stories 25-45 s")
 
 
 if __name__ == "__main__":
