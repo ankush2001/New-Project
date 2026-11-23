@@ -176,3 +176,15 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 
 ## 2026-11-23 14:11 IST - TT-011v2 (Lacy re-cut) NOT uploaded
 - The follow-up fired, but the original Lacy Short 0yQ_RF24_8Q is public (since 00:33 IST) and already has 977 views; the re-cut is the same clip, so it was skipped on purpose (no duplicate). Pool v2 r0mFMghNB7Q: 1,160 views.
+
+## Scout rejects 2026-11-23 (14:44 run)
+| clip | reason |
+|---|---|
+| caseoh_ "Caseoh meets caseoh in GTA6" | CHAPTER 3 "Out for Delivery" (story mission), near-naked NPC |
+| jerma985 "friendship denied :(" | 60 s of standing still, no payoff |
+| jerma985 "spoke too soon" | self-harm words in burned captions |
+| lacy "wwwwww" | end-of-game screen (spoiler) |
+| agent00 "Emily becoming friends with a gator" | gator shot at, two cams, heavy overlay |
+| missmikkaa "road rage" | fist fight with NPCs, swearing |
+| spite "Ambulance goes squish" | VTuber, sexualised avatar |
+| valkyrae "her face om" / "jumpscare deadleg" / "valid crashout" | story party scene / pitch black / not GTA |

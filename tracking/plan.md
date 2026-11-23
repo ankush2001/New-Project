@@ -2,6 +2,24 @@
 
 Each run: trends with proof, yesterday's experiment result, then one line per slot (format, theme, why) and ONE experiment with its success measure. Mix about 70% exploit / 30% explore. Formats: story, gag, curiosity, series, countdown, hindi-guide, hindi-news.
 
+## 2026-11-23 run (14:44 IST, scheduled) - decided before building
+Trends (YouTube search, uploads since 20-21 Nov, views at 14:50 IST):
+- Curiosity/secrets keep winning: "The CREEPIEST Secret in GTA 6 (Snake Secret)" 3.3M (SDu9JP1mBlk), "Found the secret Satan boss" 1.6M, "GTA 6 vs GTA 5 car mirror damage" 3.2M, "NPC paling berbahaya" 2.5M.
+- Big streamer + full sentence: "Kai Cenat & IShowSpeed Got The Same GTA 6 Ending" 10.2M (story spoiler - not for us), "RaKai Spent 5 Hours in GTA 6 and Never Met Lucia" 242K, "Speed Wasn't Ready..." 271K.
+- Girl streamers own their numbers: Emiru "GTA 6 Is Too Funny" 247K, Nieuczesana vs bear 189K. Side-mission Shorts still small: Red Hulk 34K-59K (open lane).
+- UFO easter egg ("The Truth Is Out There" trophy) is in every guide site since 19 Nov (PowerPyx, Beebom, GamesFuze); Speed's alien clip 2.6K views on Twitch.
+- Twitch GTA VI 24 h (91 clips looked at): xQc endings/story (skip), Jerma "friendship denied" 2.7K (static), Lacy end screen (spoiler), Stormfall33 train wasted 198, Spite (VTuber, skip), MissMikkaa road rage (NPC fight, skip).
+Our channel (24 h+ Shorts): median 316 views. Momentum (3x = 948+): Jerma gator 1,485 (83% viewed), Stormfall33 boat 1,206, TheBella26 plane wheelie 1,201 (woke up from 1 view). Under 24 h: Lacy 1,380 (14 h), pool v2 banner+punch 1,160 (9 h). Format averages (24 h+): gag/stack-clip 879; Hindi voice-stills 65.
+Yesterday's experiment (banner + punch-in gag vs old gag): pool v2 1,160 in 9 h vs old-style gags 496-1,485 at 24 h+ -> on track, judge tomorrow.
+Upload block: 5 uploads in the rolling 24 h; slots free from about 20:47 IST, so 19:30 today is lost. All 4 uploads are queued for 20:48 IST (send_later into this session).
+
+Slots:
+- 21:30 IST - TT-013 hindi-guide: "GTA 6 UFO" secret (Kelly County, Starlet Motel, 2 AM, The Truth Is Out There trophy). Why: curiosity trend + 3 guide sites agree; pairs with the 23:30 Speed UFO Short.
+- 23:30 IST - TT-014 curiosity (EXPLORE): "IShowSpeed Finds a UFO and an Alien in GTA 6" - story look, teaser of "we just found the alien in GTA, baby" (no flash), 32.7 s. Why: curiosity + big streamer = the two biggest trend types; first curiosity Short.
+- 05:30 IST 24 Nov - TT-016 story (EXPLOIT, strongest): "IShowSpeed Gets Attacked by an Alligator in GTA 6" (ready since this morning). Why: wildlife + big streamer, our best theme (Jerma gator 1,485).
+- 19:30 IST 24 Nov - TT-015 gag (EXPLOIT, girl streamer + momentum): "Stormfall33 tried train surfing in GTA 6 and forgot to duck" - banner + punch-in, 12.1 s. Why: Stormfall33 boat 1,206 = momentum; girl-streamer pillar.
+Experiment today: curiosity format. Success = TT-014 beats our 316 median by 2x (630+) at 24 h and gets 70%+ viewed.
+
 ## 2026-11-23 (seed written by hand at 09:45 IST, before the 14:43 run)
 Trends (YouTube search 19-23 Nov, views):
 - Curiosity / discovery wins biggest: "Bigfoot in GTA 6" 8.0M, "What happens if you leave the GTA 6 map?" 4.4M, "GTA 6 vs RDR2 animals" 4.9M, "GTA 4 has better physics than GTA 6?!" 4.8M.
