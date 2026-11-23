@@ -33,6 +33,10 @@ Spec fields (paths are relative to the spec file):
   end_freeze     seconds to hold the last frame (e.g. WASTED before a black loading screen), default 0
   banner         {"text":"SPEED FOUND THE RED HULK MISSION","badge":"GTA 6","color":"pink"}  stack only:
                  a title bar across the top for the whole video (our own neon badge, never Rockstar art)
+  title_card     {"text":"Jerma Tries to High Dive Into a Pool"}  stack only: white rounded box with black bold
+                 text on the line between facecam and gameplay, whole video (the Instagram/TikTok look)
+  captions       {"words":"src.words.json","highlight":["pool"],"per":3,"y":0.70}  word-by-word captions from
+                 transcribe.py (words marked drop are left out): white caps, black outline, one key word yellow
   punch          {"start":a,"end":b,"zoom":1.25}  hard punch-in on the gameplay for a source range (the
                  default comedic edit since 23 Nov; slow-mo only if a spec asks for it)
 
@@ -44,6 +48,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 FONT_DIR = Path.home() / ".theft-talk" / "fonts"
 FONT_URLS = {
+    "Montserrat.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf",
     "Anton-Regular.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf",
     "NotoSansDevanagari.ttf": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansdevanagari/NotoSansDevanagari%5Bwdth%2Cwght%5D.ttf",
 }
@@ -66,7 +71,7 @@ def run(cmd):
 
 
 def font_path(kind):
-    name = "NotoSansDevanagari.ttf" if kind == "deva" else "Anton-Regular.ttf"
+    name = {"deva": "NotoSansDevanagari.ttf", "sans": "Montserrat.ttf"}.get(kind, "Anton-Regular.ttf")
     p = FONT_DIR / name
     if not p.exists():
         try:
@@ -266,6 +271,96 @@ def banner_png(path, W, H, spec, fontfile):
     img.save(path)
 
 
+def sans_font(size, weight):
+    fp = font_path("sans")
+    f = ImageFont.truetype(fp, size) if fp else ImageFont.load_default()
+    try:
+        f.set_variation_by_axes([weight])
+    except Exception:
+        pass
+    return f
+
+
+def title_card_png(path, W, H, spec, seam_y):
+    tc = spec["title_card"]
+    k = W / 1080
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    maxw = int(W * 0.80)
+    for size in range(int(58 * k), int(34 * k), -2):
+        f = sans_font(size, 700)
+        lines = wrap(d, tc["text"], f, maxw)
+        if len(lines) <= 2:
+            break
+    lh = int(size * 1.18)
+    tw = max(d.textlength(ln, font=f) for ln in lines)
+    px, py = int(34 * k), int(20 * k)
+    bw, bh = int(tw + 2 * px), int(lh * len(lines) + 2 * py)
+    x0 = (W - bw) // 2
+    y0 = int(seam_y - bh / 2) + int(tc.get("dy", 0) * k)
+    d.rounded_rectangle([x0 + 4, y0 + 6, x0 + bw + 4, y0 + bh + 6], radius=int(18 * k), fill=(0, 0, 0, 90))
+    d.rounded_rectangle([x0, y0, x0 + bw, y0 + bh], radius=int(18 * k), fill=(255, 255, 255, 255))
+    for i, ln in enumerate(lines):
+        w = d.textlength(ln, font=f)
+        d.text(((W - w) / 2, y0 + py + i * lh), ln, font=f, fill=(0, 0, 0, 255))
+    img.save(path)
+
+
+STOP = set("""a an the and or but so to of in on at for with from by is are was were be been am i im i'm you he she it
+we they me my your his her our their this that these those what who how why when where there here just like yeah
+oh okay ok no yes not do does did dont don't can cant can't will would could should have has had got get its it's
+thats that's gonna wanna let lets let's go going about up out down over all very really bro dude man""".split())
+
+
+def caption_chunks(words, per):
+    chunks, cur = [], []
+    for w in words:
+        if cur and (len(cur) >= per or w["s"] - cur[-1]["e"] > 0.6):
+            chunks.append(cur)
+            cur = []
+        cur.append(w)
+        if w["w"][-1:] in ".,!?":
+            chunks.append(cur)
+            cur = []
+    if cur:
+        chunks.append(cur)
+    out = []
+    for i, c in enumerate(chunks):
+        a = c[0]["s"]
+        nxt = chunks[i + 1][0]["s"] if i + 1 < len(chunks) else c[-1]["e"] + 0.5
+        out.append((a, min(nxt, c[-1]["e"] + 0.5), c))
+    return out
+
+
+def caption_png(path, W, H, chunk, hl, y_frac):
+    k = W / 1080
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    toks = [w["w"].upper() for w in chunk]
+    clean = [w["w"].strip(".,!?\"'").lower() for w in chunk]
+    pick = [c in hl for c in clean]
+    if not any(pick):
+        cands = [(len(c), i) for i, c in enumerate(clean) if len(c) >= 5 and c not in STOP]
+        if cands:
+            pick[max(cands)[1]] = True
+    size = int(84 * k)
+    while True:
+        f = sans_font(size, 900)
+        sp = d.textlength(" ", font=f)
+        widths = [d.textlength(t, font=f) for t in toks]
+        total = sum(widths) + sp * (len(toks) - 1)
+        if total <= W * 0.88 or size <= 40 * k:
+            break
+        size -= 4
+    x = (W - total) / 2
+    y = int(H * y_frac)
+    for t, wdt, hi in zip(toks, widths, pick):
+        d.text((x, y), t, font=f, fill=(255, 214, 10, 255) if hi else (255, 255, 255, 255),
+               stroke_width=max(4, int(size * 0.11)), stroke_fill=(0, 0, 0, 255))
+        x += wdt + sp
+    img.save(path)
+
+
 def atempo(speed):
     parts, s = [], speed
     while s < 0.5:
@@ -375,13 +470,26 @@ def main():
             p = str(tmp / "banner.png")
             banner_png(p, W, H, spec, fontfile)
             overlays.append((p, 0, total))
+        if spec.get("title_card") and spec.get("layout", "stack") == "stack":
+            p = str(tmp / "titlecard.png")
+            title_card_png(p, W, H, spec, top)
+            overlays.append((p, 0, total))
+        cap = spec.get("captions")
+        if cap:
+            words = [w for w in json.loads((base / cap["words"]).read_text()) if not w.get("drop")]
+            hl = {h.lower() for h in cap.get("highlight", [])}
+            for i, (a, b, ch) in enumerate(caption_chunks(words, cap.get("per", 3))):
+                for j, (o0, o1) in enumerate(map_range(segs, a, b)):
+                    p = str(tmp / f"cap{i}_{j}.png")
+                    caption_png(p, W, H, ch, hl, cap.get("y", 0.70))
+                    overlays.append((p, o0, o1))
         credit = spec.get("credit", "")
         if spec.get("handle"):
             credit = f"{credit}  |  {spec['handle']}" if credit else spec["handle"]
         if credit:
             p = str(tmp / "credit.png")
-            text_png(p, W, H, credit, g_top + int(18 * k), int(34 * k), fontfile, align="left", stroke=3,
-                     x=int(28 * k))
+            cy = H - int(80 * k) if spec.get("title_card") else g_top + int(18 * k)
+            text_png(p, W, H, credit, cy, int(34 * k), fontfile, align="left", stroke=3, x=int(28 * k))
             overlays.append((p, 0, total))
         hook_y = g_top + int(80 * k)
         pip = spec.get("layout") == "pip"
