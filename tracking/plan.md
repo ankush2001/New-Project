@@ -2,6 +2,11 @@
 
 Each run: trends with proof, yesterday's experiment result, then one line per slot (format, theme, why) and ONE experiment with its success measure. Mix about 70% exploit / 30% explore. Formats: story, gag, curiosity, series, countdown, hindi-guide, hindi-news.
 
+## 2026-11-23 update 20:10 IST (Ankush: implement the view-jail rules)
+- Hindi uploads stop on this channel: TT-013 (Hindi UFO guide, 21:30) and TT-017 (Hindi narrated reel) are NOT uploaded; files stay on media-20261123b / media-voicetest-20261123.
+- Tonight's upload batch (20:48 IST): TT-016 Speed gator 05:30, TT-014 Speed UFO 23:30, LONG-003 countdown 03:30, TT-015 Stormfall train 19:30 24 Nov.
+- The 21:30 slot becomes an English clip slot from 24 Nov.
+
 ## 2026-11-23 run (14:44 IST, scheduled) - decided before building
 Trends (YouTube search, uploads since 20-21 Nov, views at 14:50 IST):
 - Curiosity/secrets keep winning: "The CREEPIEST Secret in GTA 6 (Snake Secret)" 3.3M (SDu9JP1mBlk), "Found the secret Satan boss" 1.6M, "GTA 6 vs GTA 5 car mirror damage" 3.2M, "NPC paling berbahaya" 2.5M.

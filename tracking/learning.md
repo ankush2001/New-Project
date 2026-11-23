@@ -7,3 +7,10 @@
 
 ## 2026-11-23 voice test (Ankush asked after an Instagram reel with a Hindi AI narrator)
 - OmniVoice (k2-fsa, 16.8K stars, Apache-2.0, 600+ languages incl. Hindi) runs on the Mac (MPS fp16): ~10-16 s per line after the first load; same script 15.8 s vs Edge Madhur 26 s (faster storyteller pace). Tool: clipper/scripts/omni_say.py. VoxCPM2 (42.9K) is too heavy for the 8 GB Mac (float32 on MPS, ~1 h per Short on CPU). Never clone another creator's voice; --ref only with Ankush's own recording.
+
+## 2026-11-23 channel rules (Ankush: "ok implement", from vidIQ "How to Escape EVERY YouTube Shorts View Jail", 335K views)
+1. Never a plain repost and never mass AI content: every Short adds our own story/title card/captions/edit or narration (reposts and AI slop sit in 0-view jail and get demonetised).
+2. One clear channel premise: this channel is ENGLISH GTA 6 streamer moments only. No Hindi uploads here any more (Hindi avg 65 views vs English gags 879); Hindi builds stay banked for a possible separate Hindi channel.
+3. Moving gameplay on screen all the time; no static still-image Shorts.
+4. Hooks a non-gamer cares about: a mystery, a problem, a payoff promise or nostalgia (GTA 5 vs GTA 6) in the title card and first second.
+5. Retention: find the second people leave (averageViewPercentage, retention) and cut it; Shorts just end on the payoff (no spoken "comment/subscribe/thanks" at the end; the question lives in the description). Long videos may ask at the end.
