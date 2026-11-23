@@ -188,3 +188,8 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 | missmikkaa "road rage" | fist fight with NPCs, swearing |
 | spite "Ambulance goes squish" | VTuber, sexualised avatar |
 | valkyrae "her face om" / "jumpscare deadleg" / "valid crashout" | story party scene / pitch black / not GTA |
+
+## LONG-003 built 23 Nov 19:50 IST - "8 Times GTA 6 Destroyed Streamers (IShowSpeed, Jerma, Lacy)" (16:9, 3:53)
+- Ankush: long video today with the new voice, from streams we already have, with music. Countdown #8-#1 from our 8 best clips (DarkViperAU truck, Stormfall boat, Lacy driving, Jerma dirt bike, Stormfall train, Jerma pool, Speed gator, Speed UFO+alien), cold open = Speed's alien line.
+- English OmniVoice narrator (male, young adult, american accent) on blurred number cards; code-made synthwave bed (music.py) only under the cards; streamer audio full on clips; 5 swear words auto-muted (build_long.py).
+- 1920x1080 30 fps, 2.8 Mbit/s, 82 MB, -13.8 LUFS. Hosted media-voicetest-20261123/LONG-003.mp4. Scheduled slot 03:30 IST 24 Nov (5 PM New York), upload in the 20:48 batch.
