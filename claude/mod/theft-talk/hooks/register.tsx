@@ -5,7 +5,7 @@ const BASE = [
   'Channel: Theft Talk (@thefttalk), a GTA 6 YouTube Shorts channel, channel ID UCgppTvPhWdNG-scO-fQPyfA.',
   'Follow the theft-talk-studio skill if it is installed, and use my Zapier skills theft-talk-upload-short, theft-talk-channel-stats and theft-talk-reschedule (read them with get_zapier_skill).',
   'Tools and tracking live in GitHub repo ankush2001/New-Project, branch thefttalk-tools (tracking/log.md, scoreboard.csv, learning.md, bank.md, missions.md); render on my Mac in ~/faceless-shorts/tt-tools.',
-  'Rules: every upload is private with a publish time (never instantly public); top GTA 6 title banner and a punch-in on the payoff, no slow-mo; credit the streamer on screen and in line 1 of the description; no story spoilers, leaks, sexual content or Rockstar logos/art; never reuse a clip from the log.',
+  'Rules: every upload is private with a publish time (never instantly public); pick the format from what is trending and what fits the clip (story Short with white title card + word-by-word captions, quick gag with top banner + punch-in, curiosity, series, countdown, Hindi guide); credit the streamer on screen and in line 1 of the description; no story spoilers, leaks, AI fakes, sexual content or Rockstar logos/art; never reuse a clip from the log.',
 ].join(' ')
 
 type Cmd = {
