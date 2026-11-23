@@ -35,6 +35,10 @@ Zapier skills live in Ankush's Zapier account: read them with `get_zapier_skill`
 - Focus order: SIDE-MISSION MOMENTS, GIRL STREAMERS, BIG STREAMERS (IShowSpeed, Kai Cenat, Jynxzi, CaseOh, Lacy), CURIOSITY ("what happens if", secrets, easter eggs, Bigfoot/Skunk Ape, GTA 6 vs GTA 5). Plain driving crashes are a last resort.
 - Momentum: any Short above 3x the channel median gets a same-streamer or same-theme follow-up within 24 h.
 
+## 2b. Decide the mix yourself
+
+Ankush wants a mix of everything, chosen from what is trending. Before building, check trends (YouTube search API for GTA 6 Shorts of the last 48-72 h by views, a web search for today's GTA 6 talking points, the Twitch GTA 6 Clips page) and our scoreboard per format, then write `tracking/plan.md`: trend bullets with proof, the format + theme + reason for each slot, and one experiment. About 70% proven formats/themes, 30% something new. Formats: STORY (title card + word captions, 25-45 s), QUICK GAG (banner + punch-in, 12-17 s), CURIOSITY/SECRET, SERIES (part 1/2), COUNTDOWN ("3 streamers who..."), HINDI guide/news. Pick the format that fits the clip: talkative story -> story; silent karma -> gag; discovery -> curiosity.
+
 ## 3. Scout (expect to reject 90%)
 
 1. Browser: `twitch.tv/directory/category/grand-theft-auto-vi/clips?range=24hr` (scroll with real mouse scrolls; JS scrolling does not load more), then `twitch.tv/<streamer>/clips?range=24hr` for ishowspeed, kaicenat, jynxzi, caseoh_, lacy, jerma985, and female streamers (dahlia, jill, jeanobean0, marzzzzy, valkyrae, emiru, fanfan and whoever the category shows). Look at 50+ clips. List cards with JS: each `a[href*="/clip/"]` and its card's innerText (title, streamer, length, views, age).
