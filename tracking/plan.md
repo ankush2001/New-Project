@@ -18,6 +18,7 @@ Slots:
 - 23:30 IST - TT-014 curiosity (EXPLORE): "IShowSpeed Finds a UFO and an Alien in GTA 6" - story look, teaser of "we just found the alien in GTA, baby" (no flash), 32.7 s. Why: curiosity + big streamer = the two biggest trend types; first curiosity Short.
 - 05:30 IST 24 Nov - TT-016 story (EXPLOIT, strongest): "IShowSpeed Gets Attacked by an Alligator in GTA 6" (ready since this morning). Why: wildlife + big streamer, our best theme (Jerma gator 1,485).
 - 19:30 IST 24 Nov - TT-015 gag (EXPLOIT, girl streamer + momentum): "Stormfall33 tried train surfing in GTA 6 and forgot to duck" - banner + punch-in, 12.1 s. Why: Stormfall33 boat 1,206 = momentum; girl-streamer pillar.
+- 21:30 IST 24 Nov - TT-017 hindi-narrated (NEW format, Ankush's request after an Instagram reel): OmniVoice Hindi narrator over Speed's UFO/alien clip, Speed's own line at full volume, Hinglish captions + label chips, 39 s. Upload after 00:35 IST.
 Experiment today: curiosity format. Success = TT-014 beats our 316 median by 2x (630+) at 24 h and gets 70%+ viewed.
 
 ## 2026-11-23 (seed written by hand at 09:45 IST, before the 14:43 run)
