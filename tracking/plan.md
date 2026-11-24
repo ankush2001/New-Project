@@ -2,6 +2,25 @@
 
 Each run: trends with proof, yesterday's experiment result, then one line per slot (format, theme, why) and ONE experiment with its success measure. Mix about 70% exploit / 30% explore. Formats: story, gag, curiosity, series, countdown, hindi-guide, hindi-news.
 
+## 2026-11-24 run (14:44 IST, scheduled) - decided before uploading
+Trends (YouTube search since 21 Nov, views at ~15:00 IST 24 Nov):
+- Curiosity/secrets still biggest: "GTA 6 Hidden Facts" 11.8M (6kL_SHjZ6YI), "Get $50,000 AND a LEGENDARY AR (Secret Location)" 1.9M, "Found the secret Satan boss" 1.8M, "Secret Scuba Gear Glitch" 1.4M. Arthur Morgan's hat (RDR2 nostalgia) is a proven topic: 2.4M (7eL5BYF8XhQ), 745K, 682K, 638K, 488K - but 5 pages already, so only with a new angle (streamer + where to find it).
+- Big streamer + full sentence: "Joe Bart Talks About NickEh30 Getting Out of Character" 6.5M, Kai Cenat "Checked Lucia's Phone" 613K, "Lacy Restarts His 90 Hour Marathon Because A Viewer Asked" 608K (20 s), Stormfall33's own Lucia Short 948K.
+- Short gags win: "Bro, You Need An Eye Checkup" 11.5M (10 s). Side-mission Shorts still small (Red Hulk 46K, "Leave Lucia Waiting" 29K) - open lane, low demand.
+- Dahlia bike crashes are a known type on other pages (29K, 14K, 1-1.5K) - different clips from 21 Nov; ours (23 Nov) is new.
+- Twitch GTA VI 24 h: 75 clips looked at + Lacy/Kai/Stormfall33/TheBella26 tabs. Top: Tminnzy plane jump 44K (story mission + drugs, skip), caseoh road rage 15K (gun at NPC, skip), Cohh UFO 14K (body joke about the woman dropped by the UFO, skip), LIRIK 9K (no facecam).
+Our channel (12 public Shorts older than 24 h): median about 380 views (English clip Shorts alone ~1,200). Momentum (3x = 1,140+): Jerma gator, Lacy, Stormfall boat, TheBella, pool v2, and above all the old pool Short _mW3hkISco0 "lucia hit the pool and still got wasted" 2,426 in 19 h (lowercase friend-voice title, same clip as r0mFMghNB7Q 1,215). Others: Jerma gator 1,488 (83% viewed), Lacy 1,425, Stormfall boat 1,253, TheBella 1,202, caseoh 497 (74%), dirt bike 263, Hindi 10-142.
+Subscribers 4 (+0 this week): 0.4 per 1,000 views. Analytics lag: retention only up to 22 Nov.
+Yesterday's experiment (TT-014 curiosity, Speed UFO, 32.7 s): 2 views after 15 h; TT-016 Speed gator story 32.4 s: 2 views after 9 h; LONG-003: 1 view after 11 h. Judge at 24 h, but every 13-17 s gag had hundreds of views by this age. Early read: the 32 s story look + IShowSpeed (the most reposted streamer) is not getting pushed. Today: no Speed, no 30 s+ Shorts.
+Retention finding: our best % viewed are 13-17 s gags (83%, 74%); no data yet for 30 s stories. Cut setup to the brag + payoff, end on the reaction; target 12-15 s.
+
+Slots:
+- 19:30 IST 24 Nov - TT-015 gag (already scheduled yesterday, Stormfall33 train).
+- 21:30 IST - left free (no third clip passed the checks; Mikkaa ramp, DSP swamp, Cohh UFO banked/rejected).
+- 23:30 IST - TT-019 CURIOSITY/NOSTALGIA (EXPLORE): "MissMikkaa found Arthur Morgan's hat in GTA 6" - title card + word captions, 13.4 s, ends on "where you can find Arthur Morgan's hat in Kelly County". Why: RDR2 nostalgia topic has millions of views; girl streamer; new angle = streamer + location.
+- 05:30 IST 25 Nov (strongest) - TT-018 GAG (EXPLOIT): "Dahlia called GTA 6 drivers crazy and crashed 2 seconds later" - banner + teaser + punch-in + her own words as captions, 12.7 s. Why: instant karma brag-then-crash = our best format (gags 13-17 s); girl streamer pillar.
+Experiment today: short story look (13 s) on a proven nostalgia topic. Success = TT-019 630+ views and 70%+ viewed at 24 h.
+
 ## 2026-11-23 update 20:10 IST (Ankush: implement the view-jail rules)
 - Hindi uploads stop on this channel: TT-013 (Hindi UFO guide, 21:30) and TT-017 (Hindi narrated reel) are NOT uploaded; files stay on media-20261123b / media-voicetest-20261123.
 - Tonight's upload batch (20:48 IST): TT-016 Speed gator 05:30, TT-014 Speed UFO 23:30, LONG-003 countdown 03:30, TT-015 Stormfall train 19:30 24 Nov.

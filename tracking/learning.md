@@ -15,3 +15,5 @@
 4. Hooks a non-gamer cares about: a mystery, a problem, a payoff promise or nostalgia (GTA 5 vs GTA 6) in the title card and first second.
 5. Retention: find the second people leave (averageViewPercentage, retention) and cut it; Shorts just end on the payoff (no spoken "comment/subscribe/thanks" at the end; the question lives in the description). Long videos may ask at the end.
 - 23 Nov 20:50 IST: all 4 uploads went through at once when the rolling window opened (5 uploads in 24 h is the real limit). Judge tomorrow: TT-014 curiosity vs 316 median (2x = 630), and LONG-003 (first narrated long video) views + avg % viewed.
+- 24 Nov: last night's 32-33 s Speed Shorts (UFO curiosity, gator story) had 2 views each after 9-15 h while 13-17 s gags from mid-size/girl streamers had hundreds by then; the old lowercase pool Short got 2,426 in 19 h. Until the 24 h numbers say otherwise: keep Shorts 12-15 s, avoid the most-reposted streamer (IShowSpeed).
+- 24 Nov: 6 uploads in a rolling 24 h went through (4 at 20:50 IST 23 Nov + 2 at 15:07 IST 24 Nov); try uploads early in the run and queue only if refused.

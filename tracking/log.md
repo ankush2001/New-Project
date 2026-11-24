@@ -201,3 +201,28 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - TT-015 GAG girl-streamer "Stormfall33 tried train surfing in GTA 6 and forgot to duck 🚆" - public 19:30 IST 24 Nov - https://youtu.be/w4cn11nZHAU (12.1 s, banner + punch-in)
 - Not uploaded on purpose: TT-013 (Hindi UFO guide) and TT-017 (Hindi narrated reel) - channel is English only now.
 - Noticed: old pool Short _mW3hkISco0 (same clip as r0mFMghNB7Q) went public at 15:44 IST 23 Nov - not done by these runs; left as is.
+
+## Uploads 2026-11-24 15:07 IST (scheduled run; both private + publishAt verified in the API response)
+- TT-018 GAG girl-streamer "Dahlia called GTA 6 drivers crazy and crashed 2 seconds later 🏍️" - public 05:30 IST 25 Nov - https://youtu.be/9lF4KeLQkms (12.7 s, 1440x2560 60 fps; banner "Dahlia said GTA 6 drivers are crazy...", teaser = crash, punch-in, her own words as captions "unsafe for bikers / these crazy drivers / on the road", punchline "2 SECONDS LATER"). Credit Dahlia https://www.twitch.tv/dahlia/clip/GrotesqueBelovedGaurDBstyle-ym3i9wb_uX_ustyi
+- TT-019 CURIOSITY/NOSTALGIA girl-streamer "MissMikkaa found Arthur Morgan's hat in GTA 6 🤠" - public 23:30 IST 24 Nov - https://youtu.be/q-hOmJvb9lA (13.4 s; title card + word captions; keep ranges cut 33 s of shop/map dead time; ends on "where you can find Arthur Morgan's hat in Kelly County"). Credit MissMikkaa https://www.twitch.tv/missmikkaa/clip/GoldenPopularPenguinPanicVis-5Vzj7Y87x8SlbBoN
+- Hosted on media-20261124. Renders in ~/faceless-shorts/clips20261124/renders on the Mac.
+- 21:30 IST slot left free on purpose: no third clip passed the checks.
+- Upload limit note: these 2 went through while 4 uploads from 20:48-20:51 IST 23 Nov were still inside the rolling 24 h (6 in 24 h worked today).
+
+## Scout rejects 2026-11-24 (14:44 run, ~95 clips)
+| clip | reason |
+|---|---|
+| tminnzy "bro" (44K) | plane-jump during a mission with Donnie, mission-failed screen, drug dialogue |
+| caseoh_ "get away" (15K) | road rage, gun pointed at an NPC car |
+| cohhcarnage UFO (14K) | UFO drops a woman; Cohh's line is a weight joke about her |
+| lirik "perfectly timed npc dialogue" | no facecam, swearing |
+| joe_bartolozzi "timing" | map screen, weak visual |
+| jerma985 "Run Over?" / "??? " / "slight detour" / "look at the puppy" / "Arrested during BRB" | dark + weak / talking only / runs over a bird / ends in a fist fight / BRB screen, no cam |
+| kaicenat "accident while searching the radio" | hits a cyclist |
+| lacy "Ragebait GTA" / "Restart the whole game" / "lol" | final-mission talk (spoiler) / already a 608K Short elsewhere / weak |
+| loserfruit "our first robbery" | possible story mission (Lucia dialogue, chase with shooting) |
+| vinesauce "VAPORIZED" | NPC passenger thrown from a truck |
+| stormfall33 "true patriot" / "Tuck'n'Roll" / "jason???" | sexual text on screen / fight with NPC / little gameplay + swearing |
+| aryssa614 "typical man", avoidingthepuddle "god damnnn" | sexualised framing / story scene in swimwear |
+| snapscube, ironmouse | VTuber avatars |
+| fanum, patstaresat, silky | story heist dialogue / slow / no gameplay payoff |
