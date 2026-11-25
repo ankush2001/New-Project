@@ -1,0 +1,19 @@
+[
+ {
+  "id": "TT-020",
+  "order": 1,
+  "status": "BANKED - do not upload while UPLOAD HOLD is on",
+  "format": "guide",
+  "pillar": "secrets",
+  "publish_ist": "next free slot after the hold lifts (prefer 19:30 or 23:30 IST)",
+  "publish_at": null,
+  "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261125/GUIDE-ufo.mp4",
+  "length_sec": 32.5,
+  "title": "How to find the secret UFO in GTA 6 👽",
+  "description": "Credit: CohhCarnage (Twitch) https://www.twitch.tv/cohhcarnage/clip/ArtsyGenerousAniseDendiFace-NxwfD1GOBiYOHbfx\nThere is a real UFO hidden in GTA 6. How to find it:\n1. Go to Kelly County, near the Starlet Motel just outside Port Gellhorn.\n2. Wait until after 2 AM (in-game time).\n3. Find a parked car with flashing lights and its doors open.\n4. Follow its headlights into the woods toward the light.\n5. Help the stranger and bring their car back to unlock The Truth Is Out There.\nThen the UFO comes back for you.\n\nHave you found it yet? 👇\n\nSources: Beebom, GamesFuze (checked 25 Nov 2026). Narration: AI voice.\nFan channel, not affiliated with Rockstar Games. Gameplay credit: CohhCarnage.\n#gta6 #gta6secrets #gta6ufo #gta6tips #shorts",
+  "tags": "gta 6,gta 6 secrets,gta 6 ufo,gta 6 easter egg,gta 6 tips,how to find ufo gta 6,the truth is out there gta 6,theft talk,shorts",
+  "lang": "en",
+  "category": "20",
+  "qa": "whisper check matches script; QA strip renders/guide_qa.jpg; Cohh's weight joke (src 19.9-23.7 s) is cut out (keep 0.5-17, 36-52)"
+ }
+]

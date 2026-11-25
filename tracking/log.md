@@ -240,3 +240,10 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - Scout: 87 clips on the GTA VI 24 h page, 15 downloaded (clips20261125). Passed content checks: Stormfall33 "POWERLINE JASON" (parachute into power line), DizzyKitten "Dizzy crash" (bike vs train), MissMikkaa "Who scared Lucia??" (face glitch). Dedupe (YouTube search): all three already posted by 3-4+ other clip channels within hours (e.g. "She yelled POWER LINE and still hit it", "Dizzykitten's motorcycle loses to a train", "Lucia is scared of her own selfie") -> skipped, nothing built or banked.
 - Rejected: lilypichu "Hold Square" (NPC fight), Kai "lol" (rams police car), Bruce Greene shoveler (beating, knife), NickEh30 beach drive (crowd), Hasan parachute (tiny cam), Jynxzi x2 (no gameplay / dark), DansGaming, Peanut, DechartGames (weak).
 - Finding: GTA 6 Twitch clips are reposted by many automated clip channels within hours; a plain clip Short now competes with 3-10 near-copies. Strategy question sent to Ankush.
+
+## Strategy change 2026-11-25 23:55 IST (Ankush chose "Guides + secrets")
+- New main format: English "how to find / secret" Shorts - streamer footage + our narration (OmniVoice male US voice, "Narration: AI voice." in the description) + step chips + yellow-keyword captions. Facts from 2 guide sites checked the same day. Clip pages cannot copy these, unlike plain clip reposts.
+- Built TT-020 GUIDE-ufo (CohhCarnage UFO footage, 32.5 s, 60 fps): whisper check matches the script; Cohh's weight joke cut out. Hosted on media-20261125, BANKED in queue-20261125.json - not uploaded because the UPLOAD HOLD is still on.
+- Ankush chose "set it private again" for the duplicate pool Short: _mW3hkISco0 PUT private (no publishAt), re-checked by GET at 00:05 IST 26 Nov = private. r0mFMghNB7Q stays public.
+- Channel viewCount 10,038 at 00:05 IST 26 Nov (baseline 10,026) - hold stays.
+- Daily task "Theft Talk · daily clip Shorts" is disabled (suspended device_absent); Ankush must turn it back on in Scheduled tasks.
