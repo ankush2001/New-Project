@@ -232,3 +232,11 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - Duplicate removed: _mW3hkISco0 ("lucia hit the pool and still got wasted", same clip as r0mFMghNB7Q) set PRIVATE, no publishAt, not deleted. r0mFMghNB7Q stays public.
 - Copyright/restriction check (API, all 21 videos): no age restriction, no region block, no rejection or failure reason, licensedContent false on all. Gmail (ankushchoudhary164@gmail.com) has no YouTube claim or policy email since 19 Nov. YouTube Studio needs Ankush's sign-in, so claims that only show in Studio are not checked yet.
 - Never upload or re-schedule the same clip twice; check log.md and the playlist before every upload.
+
+## Recovery check 2026-11-25 23:35 IST (manual run in the live chat; the 14:43 daily task did not run - suspended "device_absent", now shows disabled)
+- Channel viewCount 10,038 (baseline 10,026 at 07:21 IST) = +12 in 16 h. Not recovered; UPLOAD HOLD stays on. Subscribers 4.
+- Since 23 Nov: TT-019 Mikkaa hat 4, TT-018 Dahlia 0, TT-015 Stormfall train 14, TT-016 Speed gator 2, TT-014 Speed UFO 2, LONG-003 1.
+- _mW3hkISco0 (duplicate pool) shows PUBLIC again in the API (2,419 views) although the 07:30 fix set it private - not touched, asked Ankush.
+- Scout: 87 clips on the GTA VI 24 h page, 15 downloaded (clips20261125). Passed content checks: Stormfall33 "POWERLINE JASON" (parachute into power line), DizzyKitten "Dizzy crash" (bike vs train), MissMikkaa "Who scared Lucia??" (face glitch). Dedupe (YouTube search): all three already posted by 3-4+ other clip channels within hours (e.g. "She yelled POWER LINE and still hit it", "Dizzykitten's motorcycle loses to a train", "Lucia is scared of her own selfie") -> skipped, nothing built or banked.
+- Rejected: lilypichu "Hold Square" (NPC fight), Kai "lol" (rams police car), Bruce Greene shoveler (beating, knife), NickEh30 beach drive (crowd), Hasan parachute (tiny cam), Jynxzi x2 (no gameplay / dark), DansGaming, Peanut, DechartGames (weak).
+- Finding: GTA 6 Twitch clips are reposted by many automated clip channels within hours; a plain clip Short now competes with 3-10 near-copies. Strategy question sent to Ankush.
