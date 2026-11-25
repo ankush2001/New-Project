@@ -2,11 +2,11 @@
  {
   "id": "TT-020",
   "order": 1,
-  "status": "BANKED - do not upload while UPLOAD HOLD is on",
+  "status": "UPLOADED 25 Nov 23:55 IST on Ankush's request (\"Upload one now\") - do not upload again",
   "format": "guide",
   "pillar": "secrets",
-  "publish_ist": "next free slot after the hold lifts (prefer 19:30 or 23:30 IST)",
-  "publish_at": null,
+  "publish_ist": "2026-11-26 00:15",
+  "publish_at": "2026-11-25T18:45:00Z",
   "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261125/GUIDE-ufo.mp4",
   "length_sec": 32.5,
   "title": "How to find the secret UFO in GTA 6 👽",
@@ -14,6 +14,7 @@
   "tags": "gta 6,gta 6 secrets,gta 6 ufo,gta 6 easter egg,gta 6 tips,how to find ufo gta 6,the truth is out there gta 6,theft talk,shorts",
   "lang": "en",
   "category": "20",
-  "qa": "whisper check matches script; QA strip renders/guide_qa.jpg; Cohh's weight joke (src 19.9-23.7 s) is cut out (keep 0.5-17, 36-52)"
+  "qa": "whisper check matches script; QA strip renders/guide_qa.jpg; Cohh's weight joke (src 19.9-23.7 s) is cut out (keep 0.5-17, 36-52)",
+  "youtube": "https://youtu.be/8siY-SO0fLM"
  }
 ]

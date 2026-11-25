@@ -247,3 +247,4 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - Ankush chose "set it private again" for the duplicate pool Short: _mW3hkISco0 PUT private (no publishAt), re-checked by GET at 00:05 IST 26 Nov = private. r0mFMghNB7Q stays public.
 - Channel viewCount 10,038 at 00:05 IST 26 Nov (baseline 10,026) - hold stays.
 - Daily task "Theft Talk · daily clip Shorts" is disabled (suspended device_absent); Ankush must turn it back on in Scheduled tasks.
+- 23:55 IST: Ankush said "Upload one now" (overrides the hold for this one video; the hold stays on for everything else). TT-020 GUIDE "How to find the secret UFO in GTA 6 👽" uploaded private, publishAt 2026-11-25T18:45:00Z = 00:15 IST 26 Nov - https://youtu.be/8siY-SO0fLM (32.5 s, format guide, CohhCarnage footage). First guides+secrets test: judge at 24 h against the post-stall Shorts (0-14 views).
