@@ -1,0 +1,34 @@
+[
+ {
+  "id": "TT-021",
+  "order": 1,
+  "status": "BANKED - upload hold on; upload first when the hold lifts",
+  "format": "guide",
+  "pillar": "secrets",
+  "intended_slot_ist": "05:30 (strongest slot) on the first day after the hold lifts",
+  "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261126/GUIDE-dog.mp4",
+  "length_sec": 27.5,
+  "title": "How to find the secret jet ski dog in GTA 6 🐕",
+  "description": "Credit: LIRIK (Twitch) https://www.twitch.tv/lirik/clip/ReliablePowerfulOilBatChest-ydNija0st6UB0byp\nA dog on a jet ski called Cool Dog is hidden in GTA 6. How to find him:\n1. Take a boat out into Gambit Bay.\n2. Jump into the water and swim away from the boat.\n3. Keep swimming for about 5 minutes, away from land and other boats.\n4. When Cool Dog rides up on his jet ski, climb on and stay on until he reaches his island.\n5. Throw him a ball and follow him around the island.\nThen he digs up a hidden stash worth $1,200.\n\nWould you get on the jet ski with him? 👇\n\nSources: GamesFuze, Insider Gaming (checked 26 Nov 2026). Narration: AI voice.\nFan channel, not affiliated with Rockstar Games. Gameplay credit: LIRIK.\n#gta6 #gta6secrets #cooldog #gta6tips #shorts",
+  "tags": "gta 6,gta 6 secrets,gta 6 cool dog,gta 6 jet ski dog,gta 6 dog island,gta 6 easter egg,gta 6 tips,theft talk,shorts",
+  "lang": "en",
+  "category": "20",
+  "qa": "whisper check matches the script (LIRIK's own line 'must be going crazy... is that a dog? Yo' kept at full volume, no captions on it); QA strip renders/dog_qa.jpg; LIRIK swearing at src 10.3-20.5 cut by keep ranges (0.5-7.5, 20.6-34.5, 36-42.6); 9:16 panning crop keeps swimmer + dog in frame; COOL DOG prompt and Leonida Straits label cropped out"
+ },
+ {
+  "id": "TT-022",
+  "order": 2,
+  "status": "BANKED - upload hold on",
+  "format": "guide",
+  "pillar": "creatures",
+  "intended_slot_ist": "21:30 on the first day after the hold lifts (2 h from any other upload)",
+  "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261126/GUIDE-ape.mp4",
+  "length_sec": 22.7,
+  "title": "How to find Bigfoot in GTA 6 🦶",
+  "description": "Credit: Kai Cenat (Twitch) https://www.twitch.tv/kaicenat/clip/BoldEncouragingHamJonCarnage-pe0Q59lJ1Zj-4lUY\nGTA 6 has its own Bigfoot: the Skunk Ape, hiding in the swamps. How to find him (Kirk's first side mission):\n1. Read Kirk's Skunk Ape flyer at Skeeter's bar in Hamlet, then call him.\n2. Meet Kirk in the swamp near Pelican River - it only starts at night.\n3. Turn on your flashlight and follow his drone.\n4. Search the area for claw marks, then chase the Skunk Ape.\n5. Survive the giant boar on the way back to Kirk's truck.\nThen Kirk pays you $1,000.\n\nWould you chase Bigfoot through a swamp at night? 👇\n\nSources: GTABase, eGamers (checked 26 Nov 2026). Narration: AI voice.\nFan channel, not affiliated with Rockstar Games. Gameplay credit: Kai Cenat.\n#gta6 #gta6secrets #bigfoot #gta6tips #shorts",
+  "tags": "gta 6,gta 6 secrets,gta 6 bigfoot,gta 6 skunk ape,how to find bigfoot gta 6,kai cenat gta 6,gta 6 tips,theft talk,shorts",
+  "lang": "en",
+  "category": "20",
+  "qa": "whisper check matches the script; QA strip renders/ape_qa.jpg; chat overlay (contains a slur), minimap and counters cropped out; NPC 'Oh shit' line muted (src 10.7-13.1) and its burned subtitle cropped out; footage brightened (eq gamma 1.35)"
+ }
+]

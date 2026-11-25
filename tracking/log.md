@@ -248,3 +248,10 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - Channel viewCount 10,038 at 00:05 IST 26 Nov (baseline 10,026) - hold stays.
 - Daily task "Theft Talk · daily clip Shorts" is disabled (suspended device_absent); Ankush must turn it back on in Scheduled tasks.
 - 23:55 IST: Ankush said "Upload one now" (overrides the hold for this one video; the hold stays on for everything else). TT-020 GUIDE "How to find the secret UFO in GTA 6 👽" uploaded private, publishAt 2026-11-25T18:45:00Z = 00:15 IST 26 Nov - https://youtu.be/8siY-SO0fLM (32.5 s, format guide, CohhCarnage footage). First guides+secrets test: judge at 24 h against the post-stall Shorts (0-14 views).
+
+## Recovery check + builds 2026-11-26 00:14 IST (scheduled task, fired 9 h late, 9 min after the live-chat check)
+- Channel viewCount 10,038 at 00:14 IST (10,038 at 00:05 IST; baseline 10,026 at 07:21 IST 25 Nov). Subscribers 4. Not recovered -> UPLOAD HOLD stays on. Nothing uploaded by this run.
+- Since 23 Nov: TT-019 4, TT-018 0, TT-015 14, TT-016 2, TT-014 2, LONG-003 1. TT-020 (8siY-SO0fLM) private with publishAt 18:45 UTC = 00:15 IST, processed, 0 views at 00:14.
+- _mW3hkISco0 (duplicate pool Short) reads PUBLIC again at 00:14 IST (read private at 00:05 IST). Not touched - asked Ankush whether he changed it in Studio.
+- Built and banked (media-20261126, queue-20261126.json): TT-021 GUIDE "How to find the secret jet ski dog in GTA 6 🐕" (LIRIK, 27.5 s, 1080x1920 60 fps) and TT-022 GUIDE "How to find Bigfoot in GTA 6 🦶" (Kai Cenat, 22.7 s, 1080x1920 60 fps). Both: OmniVoice narrator (same male US voice), step chips, yellow-keyword captions, whisper check = script.
+- Mac disk: deleted 26 source MP4s older than 72 h in clips22 and clips20261122b (not in bank.md); 1.9 GB free before rendering.

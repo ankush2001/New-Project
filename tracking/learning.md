@@ -18,3 +18,5 @@
 - 24 Nov: last night's 32-33 s Speed Shorts (UFO curiosity, gator story) had 2 views each after 9-15 h while 13-17 s gags from mid-size/girl streamers had hundreds by then; the old lowercase pool Short got 2,426 in 19 h. Until the 24 h numbers say otherwise: keep Shorts 12-15 s, avoid the most-reposted streamer (IShowSpeed).
 - 24 Nov: 6 uploads in a rolling 24 h went through (4 at 20:50 IST 23 Nov + 2 at 15:07 IST 24 Nov); try uploads early in the run and queue only if refused.
 - 26 Nov: first "Guides + secrets" Short TT-020 (UFO how-to, narrated, 32.5 s) went out at 00:15 IST while the channel was stalled. If it beats the post-stall clip Shorts (0-14 views) at 24 h, guides are the way out of the repost competition.
+- 26 Nov 00:14: hold still on (+0 views in 9 min, +12 in 17 h). Banked 2 more guides (jet ski dog, Bigfoot). Jet ski dog Shorts by other pages hit 1.3-1.55M in 2-4 days, so secret how-tos have real demand; our blocker is distribution, not the topic.
+- Game-only 1080p footage works in a 9:16 crop if the crop pans per scene (ffmpeg crop x as a function of t) - keeps both the player and the subject in frame.

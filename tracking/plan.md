@@ -2,6 +2,19 @@
 
 Each run: trends with proof, yesterday's experiment result, then one line per slot (format, theme, why) and ONE experiment with its success measure. Mix about 70% exploit / 30% explore. Formats: story, gag, curiosity, series, countdown, hindi-guide, hindi-news.
 
+## 2026-11-26 run (00:12 IST, scheduled task - fired 9 h late, 7 min after the live-chat recovery check)
+Recovery check: channel viewCount 10,038 at 00:14 IST 26 Nov = +0 since 00:05 IST (+12 since the 10,026 baseline at 07:21 IST 25 Nov). No Short published since 23 Nov has 200+ views (TT-019 4, TT-018 0, TT-015 14, TT-016 2, TT-014 2, LONG-003 1). NOT recovered - UPLOAD HOLD stays on (hold runs so far: 25 Nov 23:35 manual check + this run = 2). TT-020 UFO guide (8siY-SO0fLM) goes public 00:15 IST on Ankush's own "upload one now" - it is the real test, judge at 24 h.
+Duplicate pool Short _mW3hkISco0 reads PUBLIC again at 00:14 IST (2,419 views) although it read private at 00:05 IST. Not touched (a flip within 9 minutes looks like a manual change in Studio); asked Ankush.
+Trends (YouTube search.list, Shorts since 21-23 Nov, views at 00:20 IST 26 Nov):
+- Jet ski dog ("Cool Dog") is the biggest secret right now: "Get Stranded At Sea In GTA 6 And A Dog Saves You" 1.55M (21 s, Vg08gb6DKCY), "...a Dog on a Jet Ski Saves You" 1.30M (37 s, 24 Nov, 5AlfaKtYEDo), "There's A Real GTA 6 Jet Ski Dog" 351K, "What Happens When You Swim Too Far" 271K. None of the top ones gives the $1,200 stash steps -> our guide angle.
+- Secret-location Shorts keep pulling: secret bunker + tank 871K (93 s), secret Bugatti glitch 581K, Moses's secret reward car 514K, creepiest place under water 486K, original Vice City easter egg 369K, 2 secret gold guns 297K. Most are 55-120 s narrated guides - narrated how-to is the winning shape.
+- Analytics still lag (rows only to 22 Nov), so no retention data for the stall period. Retention finding (22 Nov data): 13-17 s clip Shorts 83-96% viewed; UFO guide TT-020 is our first 32 s narrated test.
+Yesterday's experiment: guides+secrets (TT-020) - live only from 00:15 IST today, no result yet.
+Built today (hold on, so BANKED, not uploaded):
+- TT-021 GUIDE (dogs/secrets): "How to find the secret jet ski dog in GTA 6" - LIRIK footage (Cool Dog rescue), narrated steps, $1,200 stash payoff. Why: biggest live secret (1.55M/1.30M), no other page gives the stash steps. Intended slot: 05:30 IST (strongest) on the first day after the hold lifts.
+- TT-022 GUIDE (creatures): "How to find Bigfoot in GTA 6" - Kai Cenat chasing Mr. Mangrove (Skunk Ape), Kirk's first mission steps, $1,000 payoff. Why: Bigfoot 8.0M trend + Kai Cenat big-streamer pull; English version of the topic our Hindi TT-012 covered (Hindi is off this channel). Intended slot: 21:30 IST.
+Experiment (when they go out): two guides with different hooks - dog (cute/wholesome) vs Bigfoot (creature/mystery). Success = either one 300+ views and 60%+ viewed at 24 h.
+
 ## 2026-11-24 run (14:44 IST, scheduled) - decided before uploading
 Trends (YouTube search since 21 Nov, views at ~15:00 IST 24 Nov):
 - Curiosity/secrets still biggest: "GTA 6 Hidden Facts" 11.8M (6kL_SHjZ6YI), "Get $50,000 AND a LEGENDARY AR (Secret Location)" 1.9M, "Found the secret Satan boss" 1.8M, "Secret Scuba Gear Glitch" 1.4M. Arthur Morgan's hat (RDR2 nostalgia) is a proven topic: 2.4M (7eL5BYF8XhQ), 745K, 682K, 638K, 488K - but 5 pages already, so only with a new angle (streamer + where to find it).
