@@ -226,3 +226,9 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 | aryssa614 "typical man", avoidingthepuddle "god damnnn" | sexualised framing / story scene in swimwear |
 | snapscube, ironmouse | VTuber avatars |
 | fanum, patstaresat, silky | story heist dialogue / slow / no gameplay payoff |
+
+## Fix 2026-11-25 07:30 IST (Ankush: "fix it")
+- Channel stalled since ~23 Nov afternoon: +21 views channel-wide in 17 h; every Short since then 0-10 views (TT-014, TT-016, LONG-003, TT-015, TT-019, TT-018).
+- Duplicate removed: _mW3hkISco0 ("lucia hit the pool and still got wasted", same clip as r0mFMghNB7Q) set PRIVATE, no publishAt, not deleted. r0mFMghNB7Q stays public.
+- Copyright/restriction check (API, all 21 videos): no age restriction, no region block, no rejection or failure reason, licensedContent false on all. Gmail (ankushchoudhary164@gmail.com) has no YouTube claim or policy email since 19 Nov. YouTube Studio needs Ankush's sign-in, so claims that only show in Studio are not checked yet.
+- Never upload or re-schedule the same clip twice; check log.md and the playlist before every upload.
