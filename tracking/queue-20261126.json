@@ -2,7 +2,7 @@
  {
   "id": "TT-021",
   "order": 1,
-  "status": "BANKED - upload hold on; upload first when the hold lifts",
+  "status": "UPLOADED 27 Nov 02:18 IST on Ankush's request (\"upload one more now\") - do not upload again",
   "format": "guide",
   "pillar": "secrets",
   "intended_slot_ist": "05:30 (strongest slot) on the first day after the hold lifts",
@@ -13,7 +13,10 @@
   "tags": "gta 6,gta 6 secrets,gta 6 cool dog,gta 6 jet ski dog,gta 6 dog island,gta 6 easter egg,gta 6 tips,theft talk,shorts",
   "lang": "en",
   "category": "20",
-  "qa": "whisper check matches the script (LIRIK's own line 'must be going crazy... is that a dog? Yo' kept at full volume, no captions on it); QA strip renders/dog_qa.jpg; LIRIK swearing at src 10.3-20.5 cut by keep ranges (0.5-7.5, 20.6-34.5, 36-42.6); 9:16 panning crop keeps swimmer + dog in frame; COOL DOG prompt and Leonida Straits label cropped out"
+  "qa": "whisper check matches the script (LIRIK's own line 'must be going crazy... is that a dog? Yo' kept at full volume, no captions on it); QA strip renders/dog_qa.jpg; LIRIK swearing at src 10.3-20.5 cut by keep ranges (0.5-7.5, 20.6-34.5, 36-42.6); 9:16 panning crop keeps swimmer + dog in frame; COOL DOG prompt and Leonida Straits label cropped out",
+  "publish_ist": "2026-11-27 02:45",
+  "publish_at": "2026-11-26T21:15:00Z",
+  "youtube": "https://youtu.be/7YhiqPU5fmU"
  },
  {
   "id": "TT-022",

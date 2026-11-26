@@ -259,3 +259,8 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 ## 26 Nov 19:35 IST - Ankush: "resume schdule one"
 - Daily task "Theft Talk · daily clip Shorts" turned back on (next run 27 Nov 14:43 IST). New rule while the hold is on: each run schedules exactly ONE guide Short (05:30 IST preferred) and banks 1-2 more; no clip Shorts.
 - Recovery check: channel viewCount 10,044 (+6 since 00:05 IST). TT-020 UFO guide 0 views after 19 h public; TT-018 Dahlia 0, TT-019 Mikkaa hat 5, TT-015 Stormfall train 16. Even a new format gets 0 views -> the stall looks channel-wide; Ankush asked to check YouTube Studio (Restrictions, Channel status, copyright / reused content).
+
+## Upload 2026-11-27 02:18 IST (live chat: Ankush "upload one more now" - overrides the hold for this one video; hold stays on for the rest)
+- Check first: channel viewCount 10,047 (+9 since 00:14 IST 26 Nov). TT-020 UFO guide (8siY-SO0fLM) 1 view after ~26 h public. _mW3hkISco0 still public (2,421).
+- TT-021 GUIDE "How to find the secret jet ski dog in GTA 6 🐕" uploaded private, publishAt 2026-11-26T21:15:00Z = 02:45 IST 27 Nov, verified in the response - https://youtu.be/7YhiqPU5fmU (27.5 s, LIRIK footage, media-20261126/GUIDE-dog.mp4).
+- Ankush's reference reel (instagram.com/reel/DgK20QwhTqJ, jackiejrrr, 40K likes in 1 day): split-screen "IF YOU HAVE FIXED JASON'S HOUSE / IF YOU HAVE NOT FIXED JASON'S HOUSE" - two clean gameplay panels, yellow caps labels, no facecam, no narration. Same topic not copied (story house + sexual comment bait); format noted as a new "choice A/B" format.
