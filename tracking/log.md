@@ -255,3 +255,7 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - _mW3hkISco0 (duplicate pool Short) reads PUBLIC again at 00:14 IST (read private at 00:05 IST). Not touched - asked Ankush whether he changed it in Studio.
 - Built and banked (media-20261126, queue-20261126.json): TT-021 GUIDE "How to find the secret jet ski dog in GTA 6 🐕" (LIRIK, 27.5 s, 1080x1920 60 fps) and TT-022 GUIDE "How to find Bigfoot in GTA 6 🦶" (Kai Cenat, 22.7 s, 1080x1920 60 fps). Both: OmniVoice narrator (same male US voice), step chips, yellow-keyword captions, whisper check = script.
 - Mac disk: deleted 26 source MP4s older than 72 h in clips22 and clips20261122b (not in bank.md); 1.9 GB free before rendering.
+
+## 26 Nov 19:35 IST - Ankush: "resume schdule one"
+- Daily task "Theft Talk · daily clip Shorts" turned back on (next run 27 Nov 14:43 IST). New rule while the hold is on: each run schedules exactly ONE guide Short (05:30 IST preferred) and banks 1-2 more; no clip Shorts.
+- Recovery check: channel viewCount 10,044 (+6 since 00:05 IST). TT-020 UFO guide 0 views after 19 h public; TT-018 Dahlia 0, TT-019 Mikkaa hat 5, TT-015 Stormfall train 16. Even a new format gets 0 views -> the stall looks channel-wide; Ankush asked to check YouTube Studio (Restrictions, Channel status, copyright / reused content).
