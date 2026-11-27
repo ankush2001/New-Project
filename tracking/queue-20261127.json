@@ -14,5 +14,21 @@
   "lang": "en",
   "category": "20",
   "qa": "whisper check of the final matches the script (4 narrator lines; 'Leonita' is a whisper spelling); QA strip renders/sos_qa.jpg; game-only 9:16 crop (350x622 at x 440 of the 720p source) keeps out TypicalGamer's facecam, minimap, notifications and his burned-in captions; our captions use his own words 'What happened?' and 'Okay, that is creepy.' (also in his burned captions); the source clip ends mid-word on 'creepy', so the last word is clipped by the source; phone-video close-ups kept short (no zooms); 1080x1920 60 fps, 20 MB"
+ },
+ {
+  "id": "TT-024",
+  "order": 2,
+  "status": "BANKED - upload hold on (made on Ankush's 'generate one more new', 27 Nov evening)",
+  "format": "guide",
+  "pillar": "easter eggs / animals",
+  "intended_slot_ist": "05:30 on a free day (one guide per run while the hold is on), at least 2 h from any other video",
+  "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261127/GUIDE-gary.mp4",
+  "length_sec": 20.0,
+  "title": "How to find the pet alligator in GTA 6 🐊",
+  "description": "Credit: CohhCarnage (Twitch) https://www.twitch.tv/cohhcarnage/clip/YummySourRabbitPeoplesChamp-EcZHiEV7lthbl0mg\nGTA 6 has a pet alligator you can actually pet: Gary the Gator. How to find him:\n1. Go to Ms. Sharleen's yard sale in Key Lento, a short way from Jason's house.\n2. Gary is lying on the grass in front of her armchair.\n3. Lock on to him and choose Pet.\nThen Jason's Focus gets refilled. Be rude to Gary instead and he might bite.\n\nWould you pet a gator in real life? 👇\n\nSources: How To Video Game, ViceCityDB (checked 27 Nov 2026). Narration: AI voice.\nFan channel, not affiliated with Rockstar Games. Gameplay credit: CohhCarnage.\n#gta6 #gta6secrets #garythegator #gta6tips #shorts",
+  "tags": "gta 6,gta 6 secrets,gta 6 gary the gator,gta 6 alligator,gta 6 pet alligator,gta 6 key lento,cohhcarnage gta 6,gta 6 tips,theft talk,shorts",
+  "lang": "en",
+  "category": "20",
+  "qa": "whisper check of the final matches the script (5 lines; 'Charlene', 'Quilento' are whisper spellings); QA strip renders/gary_qa.jpg; game-only 9:16 crop (500x888 at x 740, brightened gamma 1.35) keeps out Cohh's facecam, the interaction prompts (one has a swear) and the burned game subtitles (one has a swear at src 0-4.4, not kept); captions moved to 0.80 so the gator stays visible; Cohh's own line 'a crocodile with a little hat?' at full volume (his 'Is that' left out, unsure)"
  }
 ]
