@@ -1,0 +1,18 @@
+[
+ {
+  "id": "TT-023",
+  "order": 1,
+  "status": "BANKED - upload hold on",
+  "format": "guide",
+  "pillar": "hidden places / mystery",
+  "intended_slot_ist": "05:30 on the next day with a free slot (the one guide per run while the hold is on), at least 2 h from any other video",
+  "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261127/GUIDE-sos.mp4",
+  "length_sec": 16.6,
+  "title": "How to find the creepy SOS island in GTA 6 🏝️",
+  "description": "Credit: TypicalGamer (Twitch) https://www.twitch.tv/typicalgamer/clip/LightHungryStinkbugRitzMitz--9h2hfQUsrxODcRm\nA tiny island in GTA 6 hides a phone with a couple's last video on it. How to find it:\n1. Take a boat from the west coast of Mariana County out into Leonida Bay.\n2. Look for a tiny island with a few palm trees and SOS spelled out on the beach. Send beer is written nearby.\n3. Find the phone lying in the sand next to the SOS and play the video.\nThen you watch a couple filming on the island until something off camera startles them and the recording cuts out. What happened to them is still unsolved.\n\nWould you go out to this island alone? 👇\n\nSources: Duuro Plays, Leonida List (checked 27 Nov 2026). Narration: AI voice.\nFan channel, not affiliated with Rockstar Games. Gameplay credit: TypicalGamer.\n#gta6 #gta6secrets #sosisland #gta6tips #shorts",
+  "tags": "gta 6,gta 6 secrets,gta 6 sos island,gta 6 mystery,gta 6 easter egg,gta 6 phone video,typicalgamer gta 6,gta 6 tips,theft talk,shorts",
+  "lang": "en",
+  "category": "20",
+  "qa": "whisper check of the final matches the script (4 narrator lines; 'Leonita' is a whisper spelling); QA strip renders/sos_qa.jpg; game-only 9:16 crop (350x622 at x 440 of the 720p source) keeps out TypicalGamer's facecam, minimap, notifications and his burned-in captions; our captions use his own words 'What happened?' and 'Okay, that is creepy.' (also in his burned captions); the source clip ends mid-word on 'creepy', so the last word is clipped by the source; phone-video close-ups kept short (no zooms); 1080x1920 60 fps, 20 MB"
+ }
+]

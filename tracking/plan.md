@@ -2,6 +2,23 @@
 
 Each run: trends with proof, yesterday's experiment result, then one line per slot (format, theme, why) and ONE experiment with its success measure. Mix about 70% exploit / 30% explore. Formats: story, gag, curiosity, series, countdown, hindi-guide, hindi-news.
 
+## 2026-11-27 run (14:44 IST, scheduled)
+Recovery check: channel viewCount 10,008 at ~14:50 IST 27 Nov = DOWN 39 since 10,047 at 02:18 IST (and -36 vs 10,044 at 19:35 IST 26 Nov) - YouTube removed views, nothing new came in. No Short published on/after 23 Nov has 200+ views (best TT-015 16, TT-019 6, TT-021 jet ski dog 4 at ~12 h, TT-020 UFO 1 at ~38 h, TT-018 0). NOT recovered. UPLOAD HOLD stays on. This is the 5th check without recovery since 25 Nov (25 Nov 23:35, 26 Nov 00:14, 26 Nov 19:35, 27 Nov 02:18, now) -> Ankush asked again to check YouTube Studio (Restrictions, Channel status, copyright / reused-content notices) first.
+Analytics: still only rows to 24 Nov. Daily views 20 Nov 1,340 / 22 Nov 5,276 / 23 Nov 2,694 / 24 Nov 21. Traffic 20-24 Nov: Shorts feed 8,819 of ~9,350 - the feed simply stopped sending views on 24 Nov. Subscribers 4 (0.4 per 1,000 views). _mW3hkISco0 (duplicate pool clip) reads PUBLIC (2,379 views) again; not touched.
+Trends (YouTube search.list, Shorts since 24 Nov, views at ~14:55 IST 27 Nov):
+- Secret-location how-tos are the biggest lane: "4 Secret Gold Gun Locations in GTA 6" 2.12M (uTRXwj49rlc, 63 s), "3 Secret Gold Gun Locations" 1.38M, "Hidden Secrets Found On GTA 6 Part 3" 2.08M, "The PERFECT Heist Guide" 1.51M, "How to Permanently BUFF All Stats" 1.40M, "Secret Bugatti GLITCH" 1.15M.
+- Short easter-egg finds win with very short Shorts: TMNT easter egg 470K in 9 s (ngjaAQQUYbA), Breaking Bad easter egg 138K in 8 s, Leviathan skeleton 159K in 15 s, RDR2 easter eggs 551K.
+- Mystery/creepy islands pull: "Island full of bodies" 368K, "Franklin's dog Chop on secret island" 670K, "I found a SECRET DOG" 661K. Nostalgia: Vice City time-travel / Tommy's shirt 284K (Tamil).
+- Gags still the biggest single numbers: "POV: One Of The Best Side Missions" 9.0M (14 s), "Can I Pet a Lion at the GTA 6 Zoo" 3.4M, "NEVER FEED THIS GATOR" 2.5M.
+- Twitch GTA VI 7 d (235 clips scanned): almost no clip is titled with a secret; only TypicalGamer "finds unknown island with a lost phone on it" (SOS Island) fit a guide.
+Yesterday's experiment (two guides, dog vs Bigfoot): dog went out on Ankush's request (02:45 IST 27 Nov), 4 views at ~12 h; Bigfoot scheduled today. No result while the channel gets no feed traffic.
+Retention finding: no new analytics rows since 24 Nov; last data says 13-17 s Shorts 83-96% viewed vs 28-55% for 32-33 s ones -> today's build is 16.6 s and opens on the island, steps in the middle, ends on the streamer's reaction.
+Today:
+- SCHEDULED (the one guide while the hold is on): TT-022 GUIDE (creatures, Kai Cenat) "How to find Bigfoot in GTA 6 🦶" - 05:30 IST 28 Nov (00:00 UTC) - https://youtu.be/dRNodA7eunQ. Why: banked + QA-passed, Bigfoot 8.0M topic, big-streamer name; facts from GTABase/eGamers (checked 26 Nov); both guides still online today, nothing changed.
+- BANKED: TT-023 GUIDE (hidden places / mystery) "How to find the creepy SOS island in GTA 6 🏝️" - TypicalGamer footage, 16.6 s, media-20261127. Intended slot: 05:30 IST on the next free day. Why: creepy-island Shorts 368-670K, short easter-egg finds win, nobody pairs it with a streamer reaction.
+- Not built: Tommy Vercetti / Vice City 2002 time-travel guide - facts checked (Dexerto, Destructoid, The Based Otaku agree) but no Twitch footage found in the 7 d category list. Next run: look in streamer Clips tabs for "vice city" / "malibu" / "portal".
+Experiment: Bigfoot guide with a big-streamer name (Kai Cenat) in the description vs the dog/UFO guides. Success = 200+ views at 24 h (that would also count as recovery).
+
 ## 2026-11-26 run (00:12 IST, scheduled task - fired 9 h late, 7 min after the live-chat recovery check)
 Recovery check: channel viewCount 10,038 at 00:14 IST 26 Nov = +0 since 00:05 IST (+12 since the 10,026 baseline at 07:21 IST 25 Nov). No Short published since 23 Nov has 200+ views (TT-019 4, TT-018 0, TT-015 14, TT-016 2, TT-014 2, LONG-003 1). NOT recovered - UPLOAD HOLD stays on (hold runs so far: 25 Nov 23:35 manual check + this run = 2). TT-020 UFO guide (8siY-SO0fLM) goes public 00:15 IST on Ankush's own "upload one now" - it is the real test, judge at 24 h.
 Duplicate pool Short _mW3hkISco0 reads PUBLIC again at 00:14 IST (2,419 views) although it read private at 00:05 IST. Not touched (a flip within 9 minutes looks like a manual change in Studio); asked Ankush.

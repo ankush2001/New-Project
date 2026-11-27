@@ -264,3 +264,12 @@ Learn: channel Shorts median (>24 h old) = 35 views; 3x = 105. Above it: TT-001 
 - Check first: channel viewCount 10,047 (+9 since 00:14 IST 26 Nov). TT-020 UFO guide (8siY-SO0fLM) 1 view after ~26 h public. _mW3hkISco0 still public (2,421).
 - TT-021 GUIDE "How to find the secret jet ski dog in GTA 6 🐕" uploaded private, publishAt 2026-11-26T21:15:00Z = 02:45 IST 27 Nov, verified in the response - https://youtu.be/7YhiqPU5fmU (27.5 s, LIRIK footage, media-20261126/GUIDE-dog.mp4).
 - Ankush's reference reel (instagram.com/reel/DgK20QwhTqJ, jackiejrrr, 40K likes in 1 day): split-screen "IF YOU HAVE FIXED JASON'S HOUSE / IF YOU HAVE NOT FIXED JASON'S HOUSE" - two clean gameplay panels, yellow caps labels, no facecam, no narration. Same topic not copied (story house + sexual comment bait); format noted as a new "choice A/B" format.
+
+## Run 2026-11-27 14:44 IST (scheduled; UPLOAD HOLD on - one guide per run)
+- Recovery check: channel viewCount 10,008 at ~14:50 IST (10,047 at 02:18 IST 27 Nov, 10,044 at 19:35 IST 26 Nov) = views went DOWN 39 (YouTube removed some), no new traffic. Since 23 Nov: TT-015 16, TT-019 6, TT-021 4 (~12 h), TT-016 2, TT-014 2, TT-020 1, LONG-003 1, TT-018 0. NOT recovered; 5th check without recovery since 25 Nov -> asked Ankush again to check YouTube Studio first. Subscribers 4.
+- Analytics rows still end on 24 Nov (21 views that day). Traffic 20-24 Nov was 94% Shorts feed: the feed stopped on 24 Nov.
+- _mW3hkISco0 (duplicate pool clip) is PUBLIC (2,379 views); not touched.
+- TT-022 GUIDE "How to find Bigfoot in GTA 6 🦶" uploaded private, publishAt 2026-11-28T00:00:00Z = 05:30 IST 28 Nov, verified (uploadStatus processed) - https://youtu.be/dRNodA7eunQ (22.7 s, Kai Cenat footage, media-20261126/GUIDE-ape.mp4).
+- Built + banked TT-023 GUIDE "How to find the creepy SOS island in GTA 6 🏝️" (TypicalGamer https://www.twitch.tv/typicalgamer/clip/LightHungryStinkbugRitzMitz--9h2hfQUsrxODcRm, 16.6 s, 1080x1920 60 fps, media-20261127/GUIDE-sos.mp4, queue-20261127.json). Facts: Duuro Plays + Leonida List (+ Prodigygamers), checked 27 Nov.
+- Scout: GTA VI 7 d clips page, 235 clips; only TypicalGamer's SOS island clip fit a guide. LIRIK "Finding lambo start" downloaded and dropped (car-scanning walk, no secret). TypicalGamer "pirate token" clips are Fortnite (not GTA 6).
+- Deleted hosting branches media-20261122 and media-20261123 (all their files uploaded). Kept media-20261123b (holds the unuploaded Hindi TT-013) and media-voicetest-*.
