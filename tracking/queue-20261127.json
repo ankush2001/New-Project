@@ -2,7 +2,7 @@
  {
   "id": "TT-023",
   "order": 1,
-  "status": "BANKED - upload hold on",
+  "status": "UPLOADED 28 Nov 12:05 IST (live chat, hold lifted) - do not upload again",
   "format": "guide",
   "pillar": "hidden places / mystery",
   "intended_slot_ist": "05:30 on the next day with a free slot (the one guide per run while the hold is on), at least 2 h from any other video",
@@ -13,12 +13,15 @@
   "tags": "gta 6,gta 6 secrets,gta 6 sos island,gta 6 mystery,gta 6 easter egg,gta 6 phone video,typicalgamer gta 6,gta 6 tips,theft talk,shorts",
   "lang": "en",
   "category": "20",
-  "qa": "whisper check of the final matches the script (4 narrator lines; 'Leonita' is a whisper spelling); QA strip renders/sos_qa.jpg; game-only 9:16 crop (350x622 at x 440 of the 720p source) keeps out TypicalGamer's facecam, minimap, notifications and his burned-in captions; our captions use his own words 'What happened?' and 'Okay, that is creepy.' (also in his burned captions); the source clip ends mid-word on 'creepy', so the last word is clipped by the source; phone-video close-ups kept short (no zooms); 1080x1920 60 fps, 20 MB"
+  "qa": "whisper check of the final matches the script (4 narrator lines; 'Leonita' is a whisper spelling); QA strip renders/sos_qa.jpg; game-only 9:16 crop (350x622 at x 440 of the 720p source) keeps out TypicalGamer's facecam, minimap, notifications and his burned-in captions; our captions use his own words 'What happened?' and 'Okay, that is creepy.' (also in his burned captions); the source clip ends mid-word on 'creepy', so the last word is clipped by the source; phone-video close-ups kept short (no zooms); 1080x1920 60 fps, 20 MB",
+  "publish_ist": "2026-11-28 23:30",
+  "publish_at": "2026-11-28T18:00:00Z",
+  "youtube": "https://youtu.be/7XwzGf9mJRg"
  },
  {
   "id": "TT-024",
   "order": 2,
-  "status": "BANKED - upload hold on (made on Ankush's 'generate one more new', 27 Nov evening)",
+  "status": "UPLOADED 28 Nov 12:05 IST (live chat, hold lifted) - do not upload again",
   "format": "guide",
   "pillar": "easter eggs / animals",
   "intended_slot_ist": "05:30 on a free day (one guide per run while the hold is on), at least 2 h from any other video",
@@ -29,6 +32,9 @@
   "tags": "gta 6,gta 6 secrets,gta 6 gary the gator,gta 6 alligator,gta 6 pet alligator,gta 6 key lento,cohhcarnage gta 6,gta 6 tips,theft talk,shorts",
   "lang": "en",
   "category": "20",
-  "qa": "whisper check of the final matches the script (5 lines; 'Charlene', 'Quilento' are whisper spellings); QA strip renders/gary_qa.jpg; game-only 9:16 crop (500x888 at x 740, brightened gamma 1.35) keeps out Cohh's facecam, the interaction prompts (one has a swear) and the burned game subtitles (one has a swear at src 0-4.4, not kept); captions moved to 0.80 so the gator stays visible; Cohh's own line 'a crocodile with a little hat?' at full volume (his 'Is that' left out, unsure)"
+  "qa": "whisper check of the final matches the script (5 lines; 'Charlene', 'Quilento' are whisper spellings); QA strip renders/gary_qa.jpg; game-only 9:16 crop (500x888 at x 740, brightened gamma 1.35) keeps out Cohh's facecam, the interaction prompts (one has a swear) and the burned game subtitles (one has a swear at src 0-4.4, not kept); captions moved to 0.80 so the gator stays visible; Cohh's own line 'a crocodile with a little hat?' at full volume (his 'Is that' left out, unsure)",
+  "publish_ist": "2026-11-28 19:30",
+  "publish_at": "2026-11-28T14:00:00Z",
+  "youtube": "https://youtu.be/oEzqQojNUCI"
  }
 ]
