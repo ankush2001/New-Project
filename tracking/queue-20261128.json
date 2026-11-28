@@ -1,0 +1,30 @@
+[
+ {
+  "id": "TT-026",
+  "order": 1,
+  "status": "UPLOADED 28 Nov 15:18 IST run - do not upload again",
+  "format": "guide",
+  "pillar": "vehicles / money (girl streamer)",
+  "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261128/GUIDE-pink.mp4",
+  "length_sec": 21.3,
+  "title": "How to unlock the secret pink Porsche in GTA 6 🔑",
+  "publish_ist": "2026-11-28 21:30",
+  "publish_at": "2026-11-28T16:00:00Z",
+  "youtube": "https://youtu.be/tYqnUEFtL9E",
+  "qa": "whisper check of the final matches the script (5 lines); game-only 9:16 crop 495x880 at y 20 (cuts Loserfruit's facecam, the Notes overlay and the burned game-subtitle band; the vagrant's swear subtitle/voice at src 14.5-16.5 not kept; ENTER prompt at 8.85-10.05 and OPEN prompts at 26-33 not kept); her own line 'Finally found it.' at the end"
+ },
+ {
+  "id": "TT-025",
+  "order": 2,
+  "status": "UPLOADED 28 Nov 15:18 IST run - do not upload again",
+  "format": "guide",
+  "pillar": "vehicles / money",
+  "video": "https://raw.githubusercontent.com/ankush2001/New-Project/media-20261128/GUIDE-thrax.mp4",
+  "length_sec": 24.8,
+  "title": "How to get the secret Bugatti in GTA 6 🏎️",
+  "publish_ist": "2026-11-29 05:30",
+  "publish_at": "2026-11-29T00:00:00Z",
+  "youtube": "https://youtu.be/G0CV-e78wNo",
+  "qa": "whisper check matches the script; 720p source, crop pans per scene (facecam, minimap and 'wanted by Randy' banner out), black loading frame and 20 s of static kneeling cut, last part pans to the stats panel (unlocked / no tracker / $70,000) with his captions moved to the top (cap_y 0.30); ends on his 'This is the most expensive car' ('in the game' cut, clipped in the source)"
+ }
+]

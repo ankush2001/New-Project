@@ -11,7 +11,8 @@ narr.json (paths relative to the json):
   base       the clip.py render (stack layout, NO captions/title card), e.g. "renders/NARR-base.mp4"
   out        output mp4
   duck       game-audio level under the narrator (default 0.15)
-  cap_y      caption top as a share of height (default 0.66); chip sits just above it
+  cap_y      caption top as a share of height (default 0.66); chip sits just above it.
+             A beat may set its own "cap_y" (e.g. to keep captions off an on-screen stats panel).
   beats      list, in order:
     {"src": 24.5, "vo": "narr/l1.wav", "cap": "IShowSpeed ne GTA 6 mein asli UFO dhoondh liya", "chip": "UFO EASTER EGG",
      "hl": ["UFO"]}                     narrator line; starts where source second `src` lands in the render
@@ -110,11 +111,11 @@ def main():
             hl = {h.lower() for h in b.get("hl", [])}
             for i, (c0, c1, ch) in enumerate(clip.caption_chunks(ws, 3)):
                 p = str(tmp / f"cap{len(overlays)}.png")
-                clip.caption_png(p, W, H, ch, hl, cap_y)
-                overlays.append((p, c0, min(c1, a1 + 0.3)))
+                clip.caption_png(p, W, H, ch, hl, b.get("cap_y", cap_y))
+                overlays.append((p, c0, min(c1, a1 + 0.05)))  # short tail so lines never overlap the next beat
             if b.get("chip"):
                 p = str(tmp / f"chip{n_chip}.png")
-                chip_png(p, W, H, b["chip"], chip_y, CHIP_COL[n_chip % len(CHIP_COL)])
+                chip_png(p, W, H, b["chip"], int(H * b.get("cap_y", cap_y)) - int(78 * k), CHIP_COL[n_chip % len(CHIP_COL)])
                 overlays.append((p, a0, a1))
                 n_chip += 1
 

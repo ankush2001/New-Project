@@ -2,6 +2,22 @@
 
 Each run: trends with proof, yesterday's experiment result, then one line per slot (format, theme, why) and ONE experiment with its success measure. Mix about 70% exploit / 30% explore. Formats: story, gag, curiosity, series, countdown, hindi-guide, hindi-news.
 
+## 2026-11-28 run (14:44 IST, scheduled; Mac online, 65% battery, unplugged)
+Channel: viewCount 10,914 at ~14:50 IST (10,008 at the 27 Nov run = +906; 10,012 at 12:05 IST today). Subscribers 4 (0.5 per 1,000 views on the 7-day analytics, which still end on 25 Nov). Recovered: TT-022 Bigfoot guide 1,135 (~9 h public), TT-021 jet ski dog guide 969 (~1.5 d), TT-020 UFO 11. Not stalled (rule: no stall action).
+Format scores (Shorts older than 24 h): guide TT-021 969, TT-020 11 (TT-022 1,135 at ~9 h, judge tomorrow); clip/gag/story/curiosity since 23 Nov 2-17 each. Old winners still on the channel: _mW3hkISco0 2,382 (97% viewed), Lacy 1,426, Jerma 1,222. Guide median is far above clip median -> guides stay the main format.
+Retention (rule 5): analytics rows still end on 25 Nov, so no % viewed for the guides yet. Last data: 13-17 s clips 83-97% viewed, 32-33 s Shorts 28-55%. Today's builds: 21.3 s and 24.8 s, steps start in the first 5 s, every dead second (black loading frame, static kneeling, button prompts) cut.
+Trends (search.list, Shorts since 25 Nov, views at ~14:55 IST 28 Nov):
+- Car / money how-tos are the biggest English lane now: "4 Secret Gold Gun Locations" 2.96M, "GTA 6 Has Hidden Car Controls" 2.51M (11 s), "Get $20,000 + max health + shotgun" 561K, "FREE TANK from the President's bunker" 514K, "Fastest sport bikes for free" 314K; "How to Get the Bugatti for FREE" / "Thrax (no tracker)" and "Free pink Porsche / Vanessa's garage" each have 10+ guide videos (search demand, nobody with streamer reaction).
+- Hidden pets/islands still pull: Franklin's dog Chop on a secret island 967K, "I found a SECRET DOG" 787K.
+- Easter eggs: Mario & Luigi block 635K (needs a bong step - skipped), secrets you missed 602K, Vice City portal 388K (Indonesian), Satan boss fight 343K.
+- Clip pages: NickEh30 compilation 2.13M, "POV side mission" 9.58M. Avoid IShowSpeed still.
+Yesterday's experiment (Bigfoot guide with a big streamer name, success = 200+ views at 24 h): already 1,135 at ~9 h -> success; guides with a creature/secret + big-streamer credit work.
+Today (2 guides, both scheduled; bank was empty):
+- TT-026 GUIDE (money and vehicle tips / girl streamer) "How to unlock the secret pink Porsche in GTA 6 🔑" - 21:30 IST 28 Nov (16:00 UTC) - https://youtu.be/tYqnUEFtL9E. Loserfruit footage (finds Vanessa's Growler, keypad 92665). Why: free-car guides are a top search lane; code facts agree on 4 sites.
+- TT-025 GUIDE (money and vehicle tips) "How to get the secret Bugatti in GTA 6 🏎️" - 05:30 IST 29 Nov (00:00 UTC, prime slot) - https://youtu.be/G0CV-e78wNo. TypicalGamer footage (Andrew Node's Thrax, stats panel, his line "this is the most expensive car"). Why: Bugatti/Thrax is the most searched car secret; title uses the word people search (Bugatti).
+- Skipped: Mario hats (bong step), money glitch (cocaine fencing), polar bear (political protest scene + bear attacks NPCs), Leviathan skeleton and Vice City portal (facts OK, no streamer footage found), tiger encounter (location differs between sources; Cohh's tiger clip has no van).
+Experiment: car-secret guides with a real-brand search word in the title (Bugatti / Porsche) vs the creature guides. Success = 500+ views at 24 h each.
+
 ## 2026-11-27 run (14:44 IST, scheduled)
 Recovery check: channel viewCount 10,008 at ~14:50 IST 27 Nov = DOWN 39 since 10,047 at 02:18 IST (and -36 vs 10,044 at 19:35 IST 26 Nov) - YouTube removed views, nothing new came in. No Short published on/after 23 Nov has 200+ views (best TT-015 16, TT-019 6, TT-021 jet ski dog 4 at ~12 h, TT-020 UFO 1 at ~38 h, TT-018 0). NOT recovered. UPLOAD HOLD stays on. This is the 5th check without recovery since 25 Nov (25 Nov 23:35, 26 Nov 00:14, 26 Nov 19:35, 27 Nov 02:18, now) -> Ankush asked again to check YouTube Studio (Restrictions, Channel status, copyright / reused-content notices) first.
 Analytics: still only rows to 24 Nov. Daily views 20 Nov 1,340 / 22 Nov 5,276 / 23 Nov 2,694 / 24 Nov 21. Traffic 20-24 Nov: Shorts feed 8,819 of ~9,350 - the feed simply stopped sending views on 24 Nov. Subscribers 4 (0.4 per 1,000 views). _mW3hkISco0 (duplicate pool clip) reads PUBLIC (2,379 views) again; not touched.
